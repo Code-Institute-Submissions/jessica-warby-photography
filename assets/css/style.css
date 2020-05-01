@@ -1,0 +1,12 @@
+/*------------------------------------> Header*/
+
+.name {
+    font-family: 'Inconsolata', monospace;  
+}
+
+/*------------------------------------> background*/
+
+.camera-bg {
+  background: url("assets/images/camera.jpg");
+  background-size: 300px 100px, cover;
+}
