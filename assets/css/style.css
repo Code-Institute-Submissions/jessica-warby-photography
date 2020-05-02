@@ -1,12 +1,45 @@
-/*------------------------------------> Header*/
+/* ------------------------- Main Page*/
 
 .name {
-    font-family: 'Inconsolata', monospace;  
+    color: #fafafa;
+    text-align: right;
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-weight: bold;
+    padding: 100px 70px 40px 0px;
 }
 
-/*------------------------------------> background*/
+.bg-camera {
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/tiger.jpg");
+}
 
-.camera-bg {
-  background: url("assets/images/camera.jpg");
-  background-size: 300px 100px, cover;
+
+.row {
+    text-align: bottom;
+}
+
+/*-------------------------- Footer */
+
+footer {
+   color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 150px;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+}
+
+#footer-details {
+    padding: 100px;
 }
