@@ -1,45 +1,79 @@
-/* ------------------------- Main Page*/
+/* ------------------------- Title*/
 
 .name {
     color: #fafafa;
     text-align: right;
-    font-family: 'Playfair Display', serif;
-    font-size: 48px;
+    font-family:'Krona One', sans-serif;
+    font-size: 35px;
     font-weight: bold;
-    padding: 100px 70px 40px 0px;
+    padding: 120px 40px 0px 0px;
+    letter-spacing: 2px;
 }
+
+.underline {
+    color: #fafafa;
+    text-align: right;
+    font-size: 35px;
+    font-weight: lighter;
+    vertical-align: sub;
+    letter-spacing: 0;
+}
+
+.overline {
+    color: #fafafa;
+    text-align: right;
+    font-size: 35px;
+    font-weight: lighter;
+    vertical-align: super;
+    letter-spacing: 0;
+    padding: 0 0 20px 0;
+}
+
+.text-above {
+    vertical-align: super;
+    color: #fafafa;
+    text-align: right;
+    font-weight: lighter;
+    font-size: 10px;
+}
+/*-------------------------- Menu links */
+
+
+
+.list-inline li a {
+    text-align: right;
+    color: #fafafa;
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+
+/*-------------------------- Footer */
+
+.footer {
+    padding-bottom: 10px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 10px 0px 40px 580px;
+    margin: 0 15px 5px 0;
+    border-radius: 50%;
+    font-size: 25spx;
+    text-align: center;
+    color: #fafafa;
+}
+
+.row {
+    text-align: right;
+}
+
+/*-------------------------- Background */
 
 .bg-camera {
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("../images/tiger.jpg");
-}
-
-
-.row {
-    text-align: bottom;
-}
-
-/*-------------------------- Footer */
-
-footer {
-   color: #fafafa;
-    min-height: 120px;
-    margin: 0;
-}
-
-.social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 150px;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-}
-
-#footer-details {
-    padding: 100px;
+  padding-bottom: 140px;
 }
