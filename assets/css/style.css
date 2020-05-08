@@ -1,3 +1,5 @@
+/* ------------------------- INDEX*/
+
 /* ------------------------- Title*/
 
 .name {
@@ -8,6 +10,7 @@
     font-weight: bold;
     padding: 120px 40px 0px 0px;
     letter-spacing: 2px;
+    position: relative;
 }
 
 .underline {
@@ -17,6 +20,7 @@
     font-weight: lighter;
     vertical-align: sub;
     letter-spacing: 0;
+    position: relative;
 }
 
 .overline {
@@ -26,7 +30,8 @@
     font-weight: lighter;
     vertical-align: super;
     letter-spacing: 0;
-    padding: 0 0 20px 0;
+    padding: 0 0 22px 0;
+    position: relative;
 }
 
 .text-above {
@@ -38,44 +43,66 @@
 }
 /*-------------------------- Menu links */
 
-
-
 .list-inline li a {
-    text-align: right;
+    text-align: center;
     color: #fafafa;
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: 10px;
-    
+    padding: 20px 10px 80px 130px;
+    text-decoration:none;
+    position: relative;
 }
 
-/*-------------------------- Social Links Main Page */
+.list-inline li a:hover {
+    color: #669999;
+    transition: all 0.25s ease-in-out;
+    text-decoration:none;
+    -moz-transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+}
 
-footer 
+/*-------------------------- Social Links */
+
 
 .social-heading {
     font-family: "Krona One", sans-serif;
     font-weight: 300;
     color: #fafafa;
     font-size: 10px;
-    padding: 80px 0 0 200px;
+    padding: 80px 0 0 100px;
 }
 
 .social-links li a i {
     width: 50px;
     height: 50px;
-    padding: 0px 0px 120px 0px;
+    padding: 80px 150px 30px 20px;
     border-radius: 50%;
     font-size: 25spx;
     text-align: right;
     color: #fafafa;
+    text-decoration:none;
 }
 
+.social-links li a i:hover {
+    color: #669999;
+    transition: all 0.15s ease-in-out;
+    text-decoration:none;
+    -moz-transition: all 0.15s ease-in-out;
+    -webkit-transition: all 0.15s ease-in-out;
+    -o-transition: all 0.15s ease-in-out;
+}
 .row {
     text-align: right;
 }
 
-.list-inline-item:not(:last-child) {
-    margin: 0;
+
+.web-link {
+    text-align: right;
+    color: #fafafa;
+    font-family: "Krona One", sans-serif;
+    font-size: 10px;
+    padding: 0px 120px 0px 90px;
 }
 
 /*-------------------------- Background */
@@ -88,9 +115,6 @@ footer
   padding-bottom: 180px;
 }
 
-.header-bg {
-    background-color: black;
-}
 
 /* ----------------------------------------Special paddings/margins/text */
 
@@ -102,13 +126,62 @@ h5 {
     margin: 0;
 }
 
-/*-------------------------- Header */
+/*-------------------------- ABOUT/BLOG/CONTACT */
 
-header {
-    margin: 0;
-}
-.page-heading {
-    font-family: 'Krona One', sans-serif;
-    font-size: 20px;
+/* ------------------------- Header */
+
+
+
+.overline-web-title {
     color: #fafafa;
+    text-align: center;
+    font-size: 25px;
+    font-weight: lighter;
+    vertical-align: sub;
+    letter-spacing: 0;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.underline-web-title {
+    color: #fafafa;
+    text-align: center;
+    font-size: 25px;
+    font-weight: lighter;
+    vertical-align: sub;
+    letter-spacing: 0;
+    padding: -10px 0 10px 0;
+    position: relative;
+}
+
+.web-title {
+    text-align: center;
+    color: #fafafa;
+    font-family: 'Krona One', sans-serif;
+    padding: 0 0px 0px 0px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+
+.list-inline .nav-menu a {
+    text-align: left;
+    
+    color: #fafafa;
+    font-size: 5px;
+    letter-spacing: 2px;
+    text-decoration:none;
+    padding: 4px 0px 10px 20px;
+}
+
+.nav-menu {
+    font-family: sans-serif;
+    padding: 10px 120px 0px 5px;
+}
+
+/* ------------------------- Backgrounds */
+
+.header-bg {
+    background-color: black;
+    padding: 2px 0 10px 0;
 }
