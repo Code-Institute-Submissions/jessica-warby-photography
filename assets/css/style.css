@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Krona+One|Oswald:200,300,400,500,600,700|Playfair+Display&display=swap');
+
 /* ------------------------- INDEX*/
 
 /* ------------------------- Title*/
@@ -8,7 +10,7 @@
     font-family:'Krona One', sans-serif;
     font-size: 35px;
     font-weight: bold;
-    padding: 120px 40px 0px 0px;
+    padding: 30px 30px 0px 10px;
     letter-spacing: 2px;
     position: relative;
 }
@@ -26,11 +28,12 @@
 .overline {
     color: #fafafa;
     text-align: right;
+    font-family: 'Krona One' , sans-serif;
     font-size: 35px;
     font-weight: lighter;
     vertical-align: super;
     letter-spacing: 0;
-    padding: 0 0 22px 0;
+    padding: 0px 30px 0px 10px;
     position: relative;
 }
 
@@ -39,7 +42,8 @@
     color: #fafafa;
     text-align: right;
     font-weight: lighter;
-    font-size: 10px;
+    font-size: 25px;
+    padding: 100px 50px 5px 10px;
 }
 /*-------------------------- Menu links */
 
@@ -78,7 +82,7 @@
     height: 50px;
     padding: 80px 150px 30px 20px;
     border-radius: 50%;
-    font-size: 25spx;
+    font-size: 25px;
     text-align: right;
     color: #fafafa;
     text-decoration:none;
@@ -88,9 +92,7 @@
     color: #669999;
     transition: all 0.15s ease-in-out;
     text-decoration:none;
-    -moz-transition: all 0.15s ease-in-out;
-    -webkit-transition: all 0.15s ease-in-out;
-    -o-transition: all 0.15s ease-in-out;
+
 }
 .row {
     text-align: right;
@@ -150,7 +152,7 @@ h5 {
     font-weight: lighter;
     vertical-align: sub;
     letter-spacing: 0;
-    padding: -10px 0 10px 0;
+    padding: 0px 0 10px 0;
     position: relative;
 }
 
@@ -176,12 +178,16 @@ h5 {
 
 .nav-menu {
     font-family: sans-serif;
-    padding: 10px 120px 0px 5px;
+    padding: 10px 120px 1px 5px;
 }
 
 /* ------------------------- Backgrounds */
 
 .header-bg {
     background-color: black;
-    padding: 2px 0 10px 0;
+    padding: 2px 0 0px 0;
+}
+
+.body-bg {
+   background-color: #1a1a1a;
 }
