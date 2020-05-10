@@ -62,9 +62,6 @@
     color: #669999;
     transition: all 0.25s ease-in-out;
     text-decoration:none;
-    -moz-transition: all 0.25s ease-in-out;
-    -webkit-transition: all 0.25s ease-in-out;
-    -o-transition: all 0.25s ease-in-out;
 }
 
 /*-------------------------- Social Links */
@@ -118,18 +115,22 @@
   padding-bottom: 180px;
 }
 
+/*-------------------------- ABOUT/BLOG/CONTACT */
 
-/* ----------------------------------------Special paddings/margins/text */
+/* ------------------------- Backgrounds */
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-    margin: 0;
+.header-bg {
+    background-color: black;
+    padding: 2px 0 0px 0;
 }
 
-/*-------------------------- ABOUT/BLOG/CONTACT */
+.body-bg {
+   background-color: #1a1a1a;
+}
+
+.footer-bg {
+    background-color: black;
+}
 
 /* ------------------------- Header */
 
@@ -167,8 +168,7 @@ h5 {
 
 
 .list-inline .nav-menu a {
-    text-align: left;
-    
+    text-align: left;    
     color: #fafafa;
     font-size: 5px;
     letter-spacing: 2px;
@@ -181,20 +181,26 @@ h5 {
     padding: 10px 120px 1px 5px;
 }
 
-/* ------------------------- Backgrounds */
+/* ------------------------- Body */
 
-.header-bg {
-    background-color: black;
-    padding: 2px 0 0px 0;
+.profile {
+    background: url(../images/camera.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 650px;
+    padding: 50px ;
 }
 
-.body-bg {
-   background-color: #1a1a1a;
+.about-me {
+    text-align: left;
+    color: #fafafa;
+    font-family: 'Oswald', sans-serif;
+   /* text-decoration: underline; */
+    padding: 55px;
+    text-shadow: 2px 2px rgb(74, 70, 70);
 }
 
-.footer-bg {
-    background-color: black;
-}
 
 /* ------------------------- Footer */
 
@@ -217,8 +223,10 @@ h5 {
 }
 
 .footer-descript {
+    border-top: 1px solid;
     border-right: 1px solid;
-    border-color: #fafafa;
+    border-bottom: 1px solid;
+    border-color:#fff;
 }
 
 .footer-descript h5 {
@@ -250,6 +258,18 @@ h5 {
     color: #669999;
     transition: all 0.25s ease-in-out;
     text-decoration:none;
+}
 
+/*--------------------- Copyright */
+
+.copyright {
+    text-align: center;
+    color: #fafafa;
+}
+
+.copyright-index {
+    text-align: center;
+    color: #fafafa;
+    background-color: black;
 }
 
