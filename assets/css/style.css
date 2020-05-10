@@ -40,9 +40,10 @@
 .text-above {
     vertical-align: super;
     color: #fafafa;
+    font-family: 'Krona One', sans-serif;
     text-align: right;
     font-weight: lighter;
-    font-size: 25px;
+    font-size: 12px;
     padding: 100px 50px 5px 10px;
 }
 /*-------------------------- Menu links */
@@ -52,7 +53,7 @@
     color: #fafafa;
     font-size: 18px;
     letter-spacing: 10px;
-    padding: 20px 10px 80px 130px;
+    padding: 20px 5px 80px 130px;
     text-decoration:none;
     position: relative;
 }
@@ -162,7 +163,6 @@ h5 {
     font-family: 'Krona One', sans-serif;
     padding: 0 0px 0px 0px;
     font-size: 14px;
-    text-decoration: none;
 }
 
 
@@ -191,3 +191,65 @@ h5 {
 .body-bg {
    background-color: #1a1a1a;
 }
+
+.footer-bg {
+    background-color: black;
+}
+
+/* ------------------------- Footer */
+
+.social-footer li a i {
+   color: #fafafa;
+   text-decoration: none;
+   padding: 5px 40px 9px 0;
+}
+
+.social-footer p {
+    color: #e6e6e6;
+    padding: 10px;
+}
+
+.social-footer li a i:hover {
+    color: #669999;
+    transition: all 0.25s ease-in-out;
+    text-decoration:none;
+
+}
+
+.footer-descript {
+    border-right: 1px solid;
+    border-color: #fafafa;
+}
+
+.footer-descript h5 {
+    text-align: center;
+    color: #fafafa;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.footer-descript p {
+    text-align: center;
+    color: #e6e6e6;
+}
+
+.footer-descript p a i {
+    color: #fafafa;
+}
+
+ .social-footer p {
+    text-align: center;
+}
+
+.footer-descript h5 {
+    font-size: 16px;
+}
+
+.footer-descript p a i:hover {
+    color: #669999;
+    transition: all 0.25s ease-in-out;
+    text-decoration:none;
+
+}
+
