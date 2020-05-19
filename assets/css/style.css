@@ -45,10 +45,11 @@
     font-weight: lighter;
     font-size: 12px;
     padding: 100px 50px 5px 10px;
+    position: relative;
 }
 /*-------------------------- Menu links */
 
-.list-inline li a {
+.menu-links li a {
     text-align: center;
     color: #fafafa;
     font-size: 18px;
@@ -58,10 +59,11 @@
     position: relative;
 }
 
-.list-inline li a:hover {
+.menu-links li a:hover {
     color: #669999;
     transition: all 0.25s ease-in-out;
     text-decoration:none;
+    position: relative;
 }
 
 /*-------------------------- Social Links */
@@ -73,27 +75,29 @@
     color: #fafafa;
     font-size: 10px;
     padding: 80px 0 0 100px;
+    position: relative;
 }
 
 .social-links li a i {
-    width: 50px;
-    height: 50px;
-    padding: 80px 150px 30px 20px;
-    border-radius: 50%;
-    font-size: 25px;
+    padding: 250px 30px 0px 20px;
+    border-radius: 0%;
+    font-size: 15px;
     text-align: right;
     color: #fafafa;
     text-decoration:none;
+    position: relative;
 }
 
 .social-links li a i:hover {
     color: #669999;
     transition: all 0.15s ease-in-out;
     text-decoration:none;
+    position: relative;
 
 }
 .row {
     text-align: right;
+    position: relative;
 }
 
 
@@ -102,94 +106,60 @@
     color: #fafafa;
     font-family: "Krona One", sans-serif;
     font-size: 10px;
-    padding: 0px 120px 0px 90px;
+    padding: 0px 10px 0px 0px;
+    position: relative;
 }
 
 /*-------------------------- Background */
 
 .bg-camera {
-  background-position: right;
-  background-repeat: no-repeat;
+  background: url(../images/tiger.jpg) no-repeat center; 
   background-size: cover;
-  background-image: url("../images/tiger.jpg");
-  padding-bottom: 180px;
+  height: 650px;
+  position: relative;
 }
 
 /*-------------------------- ABOUT/BLOG/CONTACT */
 
 /* ------------------------- Backgrounds */
 
-.header-bg {
+
+  /* ------------------------- NavBar */
+.navbar {
     background-color: black;
-    padding: 2px 0 0px 0;
-}
-
-.body-bg {
-   background-color: #1a1a1a;
-}
-
-.footer-bg {
-    background-color: black;
-}
-
-/* ------------------------- Header */
-
-
-
-.overline-web-title {
-    color: #fafafa;
-    text-align: center;
-    font-size: 25px;
-    font-weight: lighter;
-    vertical-align: sub;
-    letter-spacing: 0;
-    padding-bottom: 15px;
-    position: relative;
-}
-
-.underline-web-title {
-    color: #fafafa;
-    text-align: center;
-    font-size: 25px;
-    font-weight: lighter;
-    vertical-align: sub;
-    letter-spacing: 0;
-    padding: 0px 0 10px 0;
+    padding: 20px;
     position: relative;
 }
 
 .web-title {
-    text-align: center;
-    color: #fafafa;
     font-family: 'Krona One', sans-serif;
-    padding: 0 0px 0px 0px;
-    font-size: 14px;
+    font-size: 20px;
+    padding: 0 0 0 20px;
+    color: #fff;
+    position: relative;
 }
 
+.nav-item {
+    padding: 0 40px 0 40px;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
 
-.list-inline .nav-menu a {
-    text-align: left;    
-    color: #fafafa;
-    font-size: 5px;
-    letter-spacing: 2px;
-    text-decoration:none;
-    padding: 4px 0px 10px 20px;
 }
 
-.nav-menu {
-    font-family: sans-serif;
-    padding: 10px 120px 1px 5px;
-}
+  /* ------------------------- Header */
+
+
+
 
 /* ------------------------- Body */
 
 .profile {
     background: url(../images/camera.jpg);
-    background-position: left;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 650px;
-    padding: 50px ;
+    padding: 130px 0 120px 0;
+    position: relative;
 }
 
 .about-me {
@@ -197,79 +167,97 @@
     color: #fafafa;
     font-family: 'Oswald', sans-serif;
    /* text-decoration: underline; */
-    padding: 55px;
-    text-shadow: 2px 2px rgb(74, 70, 70);
+    text-shadow:5px 5px 10px black;
+    font-size: 75px;
+    text-indent: 10%;
+    padding: 10px;
 }
 
 
 /* ------------------------- Footer */
-
-.social-footer li a i {
-   color: #fafafa;
-   text-decoration: none;
-   padding: 5px 40px 9px 0;
+.footer_area {
+    background-color: black;
+}
+.social-icon li a i {
+    text-align: left;
+    font-size: 15px;
+    padding: 2px 20px 2px 40px;
+    position: relative;
 }
 
-.social-footer p {
-    color: #e6e6e6;
+.ftr-contact {
     padding: 10px;
+    text-align: left;
+    color: #fff;
+    position: relative;
 }
 
-.social-footer li a i:hover {
-    color: #669999;
-    transition: all 0.25s ease-in-out;
-    text-decoration:none;
-
-}
-
-.footer-descript {
-    border-top: 1px solid;
-    border-right: 1px solid;
-    border-bottom: 1px solid;
-    border-color:#fff;
-}
-
-.footer-descript h5 {
+.ftr-info {
     text-align: center;
-    color: #fafafa;
-    font-family: sans-serif;
-    font-size: 20px;
     padding: 10px;
+    color: #fff;
+    position: relative;
 }
 
-.footer-descript p {
-    text-align: center;
-    color: #e6e6e6;
+.ftr-info ul li a {
+    text-align: left;
+    padding: 0px 0px 0 0px;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
 }
 
-.footer-descript p a i {
-    color: #fafafa;
+
+.ftr-news {
+    text-align: right;
+    padding: 10px 0px 0 20px;
+    color: #fff;
+    position: relative;
 }
 
- .social-footer p {
-    text-align: center;
+.newsletter_form p {
+    text-align: right;
+    position: relative;
+} 
+
+.form-inline {
+    float: right;
+    position: relative;
 }
 
-.footer-descript h5 {
-    font-size: 16px;
+.ftr_social_icon li a i {
+    color: #fff;
+    padding: 0 10px 0 0;
+    position: relative;
+
 }
 
-.footer-descript p a i:hover {
+  /*--------------------- Hover */
+
+.ftr-info ul li a:hover {
     color: #669999;
-    transition: all 0.25s ease-in-out;
+    transition: all 0.15s ease-in-out;
     text-decoration:none;
+    position: relative;
+}
+
+.ftr_social_icon li a i:hover {
+    color: #669999;
+    transition: all 0.15s ease-in-out;
+    text-decoration:none;
+    position: relative;
 }
 
 /*--------------------- Copyright */
 
-.copyright {
-    text-align: center;
-    color: #fafafa;
-}
-
 .copyright-index {
     text-align: center;
     color: #fafafa;
-    background-color: black;
+    padding: 0 0px 0 0px;
+    position: relative;
+}
+
+.copyright {
+    border-top: grey dashed;
 }
 
