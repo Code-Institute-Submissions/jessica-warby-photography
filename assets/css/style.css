@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Krona+One|Oswald:200,300,400,500,600,700|Playfair+Display&display=swap');
 
 /* ------------------------- INDEX*/
-
+body html {
+    height: 100%;
+}
 /* ------------------------- Title*/
 
 .name {
@@ -13,6 +15,7 @@
     padding: 30px 30px 0px 10px;
     letter-spacing: 2px;
     position: relative;
+    text-shadow:5px 5px 10px #a8a6a0;
 }
 
 .underline {
@@ -35,11 +38,12 @@
     letter-spacing: 0;
     padding: 0px 30px 0px 10px;
     position: relative;
+    text-shadow:5px 5px 10px #a8a6a0;
 }
 
 .text-above {
     vertical-align: super;
-    color: #fafafa;
+    color: red;
     font-family: 'Krona One', sans-serif;
     text-align: right;
     font-weight: lighter;
@@ -60,7 +64,7 @@
 }
 
 .menu-links li a:hover {
-    color: #669999;
+    color: red;
     transition: all 0.25s ease-in-out;
     text-decoration:none;
     position: relative;
@@ -89,7 +93,7 @@
 }
 
 .social-links li a i:hover {
-    color: #669999;
+  color: red;
     transition: all 0.15s ease-in-out;
     text-decoration:none;
     position: relative;
@@ -114,15 +118,19 @@
 
 .bg-camera {
   background: url(../images/tiger.jpg) no-repeat center; 
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  height: 650px;
-  position: relative;
+  height: 100%;
 }
 
 /*-------------------------- ABOUT/BLOG/CONTACT */
 
-/* ------------------------- Backgrounds */
+  /* ------------------------- Backgrounds */
 
+.about-me-work-bg {
+    background-color: #a8a6a0;
+}
 
   /* ------------------------- NavBar */
 .navbar {
@@ -149,10 +157,6 @@
   /* ------------------------- Header */
 
 
-
-
-/* ------------------------- Body */
-
 .profile {
     background: url(../images/camera.jpg);
     background-position: center;
@@ -160,19 +164,108 @@
     background-size: cover;
     padding: 130px 0 120px 0;
     position: relative;
+    border-bottom: white solid 1px;
 }
 
-.about-me {
+.about-me-title h1 {
     text-align: left;
     color: #fafafa;
     font-family: 'Oswald', sans-serif;
-   /* text-decoration: underline; */
     text-shadow:5px 5px 10px black;
     font-size: 75px;
     text-indent: 10%;
     padding: 10px;
 }
 
+
+/* ------------------------- Body */
+
+
+.about-me-intro {
+    background-color: black;
+    padding: 8px 200px 10px 0;
+    position: relative;
+    border-bottom: 1px white solid;
+}
+
+
+#center-about{
+    width: 40%;
+    margin:0 auto;
+    padding: 10px 0px 10px 0px;
+}
+
+.circle-cover-bg{ 
+    height: 400px;
+    width: 360px;
+    border-radius: 50%;
+    border: 5px white solid;
+}
+
+.about-me-info {
+    text-align: center;
+    padding: 20px 30px 0 0;
+}
+
+.about-me-info h1 {
+    font-family: 'Oswald', sans-serif;
+    color: #fafafa;
+    text-align: right;
+    font-size: 50px;
+    padding: 10px 0 10px 0;
+}
+
+.about-me-info p {
+    color: #fff;
+    font-size: 18px;
+    text-align: right;
+    margin: 0 auto;
+}
+
+.about-me-info p span {
+    font-size: 20px ;
+    color: red;
+}
+
+
+.about-my-work h1 {
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 60px;
+    padding-bottom: 2px;
+}
+
+.amw-title {
+    border: 1px black solid;
+}
+
+.about-my-work-info {
+    font-family: sans-serif;
+    font-size: 23px ;
+    text-align: center;
+    padding: 1px;
+}
+
+.about-my-work-info p {
+    padding: 10px;
+}
+
+.about-my-work-info span {
+    color: red;
+    font-weight: bold;
+}
+
+.about-my-work-info h4 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.thumbnail p {
+    text-align: center;
+}
 
 /* ------------------------- Footer */
 .footer_area {
@@ -235,20 +328,26 @@
   /*--------------------- Hover */
 
 .ftr-info ul li a:hover {
-    color: #669999;
+    color: red;
     transition: all 0.15s ease-in-out;
     text-decoration:none;
     position: relative;
 }
 
 .ftr_social_icon li a i:hover {
-    color: #669999;
+    color: red;
     transition: all 0.15s ease-in-out;
     text-decoration:none;
     position: relative;
 }
 
-/*--------------------- Copyright */
+  /*--------------------- Pictures */
+
+.thumbnail {
+    border: 1px solid black;
+}
+
+  /*--------------------- Copyright */
 
 .copyright-index {
     text-align: center;
