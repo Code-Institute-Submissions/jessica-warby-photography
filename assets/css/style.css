@@ -133,22 +133,21 @@ body html {
 .navbar {
     background-color: black;
     padding: 20px;
-    position: relative;
+    position: absolute;
 }
 
 .web-title {
     font-family: 'Krona One', sans-serif;
-    font-size: 20px;
-    padding: 0 0 0 20px;
+    font-size: 15px;
     color: #fff;
+    width: 100%;
     position: relative;
 }
 
 .nav-item {
-    padding: 0 40px 0 40px;
+    padding: 0 30px 0 30px;
     font-family: 'Oswald', sans-serif;
     position: relative;
-
 }
 
    /* ------------------------- Header */
@@ -162,6 +161,7 @@ body html {
     padding: 130px 0 120px 0;
     position: relative;
     border-bottom: white solid 1px;
+    width: 100%
 }
 
 .about-me-title h1 {
@@ -286,7 +286,7 @@ body html {
 	height: 100%;
 	left: 0;
 	top: 0;
-	background-color: black;
+	background-color: #a6a6a6;
 	z-index: -1;
 	opacity: .85;
 }
@@ -318,7 +318,8 @@ textarea {
     position: relative;
     text-align: center;
     padding: 0 10px 0 0px;
-    color: grey;
+    color: #000000;
+    font-family: 'Oswald', sans-serif;
 }
 
 .contact-me-message span {
@@ -327,7 +328,7 @@ textarea {
 }
 
 .contact-me-message p {
-    font-size: 20px;
+    font-size: 23px;
 }
 
 .contact-me-message h5 {
@@ -350,7 +351,8 @@ textarea {
     position: relative;
     text-align: center;
     padding: 0 10px 0 0px;
-    color: grey;
+    color: #000000;
+    font-family: 'Oswald', sans-serif;
 }
 
 .contact-coming-soon i {
@@ -361,7 +363,7 @@ textarea {
 
 .contact-coming-soon h5 {
     font-size: 40px;
-    color: darkgoldenrod;
+    color: green;
     font-weight: bolder;
 }
 
@@ -370,9 +372,213 @@ textarea {
 }
 
 .contact-coming-soon span {
-    color: seagreen;
+    color: darkgoldenrod;
     font-weight: bold;
 }
+
+/*--------------------- Blog */
+
+.blog-bg {
+    background-image: url('../images/sticker.jpg');
+    background-size: cover;
+    background-position: center;
+	background-attachment: fixed;
+	position: relative;
+	z-index: 2;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    background-color: #2e2e2d;
+}
+
+.blog-header {
+    border-bottom: 3px dashed grey;
+}
+
+.blog-header h1 {
+    color: #fff;
+    font-family: 'Krona One', sans-serif;
+    text-align: center;
+    padding: 60px 0 20px 0;
+    text-shadow: 5px 3px 3px black;
+    font-size: 60px;
+}
+
+.blog-header p {
+    color: grey;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 30px;
+    text-shadow: 5px 3px 3px black;
+}
+
+
+
+.blog-border {
+    border-top: 2px white solid;
+    border-right: 2px white solid;
+    border-left: 2px white solid;
+    border-bottom: 2px white solid;
+    background-color: black;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-left: 130px;
+    margin-top: 30px;
+}
+
+.blog-img-dance {
+    background-image: url('../images/ballet-small.jpg');
+    background-repeat: no-repeat;
+    width: 70%;
+    margin:0 auto;
+    padding: 10px 0px 10px 0px;
+    height: 360px;
+    border-radius: 50%;
+    border: 5px darkred solid;
+    background-position: center;
+    background-color: white;
+}
+
+.blog-title-dance {
+    padding: 15px;
+}
+
+.blog-title-dance h4 a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 60px 0 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+
+.blog-img-text h5 {
+    text-decoration: none;
+    color: red;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px 240px;;
+}
+
+.blog-content-dance p {
+    color: #d6a015;
+    padding-top: 5px;
+    text-align: center;
+}
+
+
+
+.blog-img-lego {
+    background-image: url('../images/lego-swing-small.jpg');
+    background-repeat: no-repeat;
+    width: 70%;
+    margin:0 auto;
+    padding: 30px 0px 10px 0px;
+    height: 360px;
+    border-radius: 50%;
+    border: 5px darkred solid;
+    background-position: center;
+    background-color: white;
+}
+
+.blog-title-lego {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.blog-title-lego h4 a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 25px 20px 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+
+.blog-content-lego p {
+    color: darkgoldenrod;
+    padding: 5px 0 25px 0;;
+    text-align: center;
+}
+
+.blog-img-power {
+    background-image: url('../images/hand-gesture-md.jpg');
+    background-repeat: no-repeat;
+    width: 70%;
+    margin:0 auto;
+    height: 360px;
+    border-radius: 50%;
+    border: 5px darkred solid;
+    background-position: center;
+    background-color: white;
+}
+
+.blog-title-power {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.blog-title-power h4 a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 5px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+
+.blog-content-power p {
+    color: darkgoldenrod;
+    padding: 5px 0 20px 0;
+    text-align: center;
+}
+
+.blog-title-objects {
+    padding: 15px 10px 10px 0;
+}
+
+.blog-img-objects {
+    background-image: url('../images/eiffel-tower-small.jpg');
+    background-repeat: no-repeat;
+    width: 70%;
+    margin:0 auto;
+    height: 360px;
+    border-radius: 50%;
+    border: 5px darkred solid;
+    background-position: center;
+    background-color: white;
+}
+
+.blog-title-objects h4 a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+
+.blog-content-objects p {
+    color: darkgoldenrod;
+    text-align: center;
+    padding: 5px;
+}
+
+.box_btn {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
 
     /* ------------------------- Footer */
 
@@ -455,6 +661,22 @@ textarea {
     text-decoration:none;
     position: relative;
 }
+
+.blog-hover h4 a:hover {
+   color: darkgoldenrod;
+   transition: all 0.15s ease-in-out;
+    text-decoration:none;
+    position: relative;
+}
+
+
+.box_btn:hover {
+    color: darkred;
+    transition: all 0.15s ease-in-out;
+    text-decoration:none;
+    position: relative;
+}
+
     /*--------------------- Pictures */
 
 .thumbnail {
