@@ -19,29 +19,15 @@ body html {
   left: 0;
 }
 
-@media screen and (max-width: 1024px) { 
-.bg-index {
-    left: 50%;
-    margin-left: -512px; 
-  }
-}
-
-@media screen and (max-width: 600px) {
-
-.image-grid-cover {
-    right: 160%;
-}
-
-}
 
    /* ------------------------- Title*/
 
 .web-name {
     color: #fff;
     margin: 50px;
-    padding-top: 20px;
-    margin-left: 140px;
-    position: relative;
+    padding-top: 50px;
+    position: center;
+    text-align: center;
 }
 
 .web-name h1 {
@@ -56,17 +42,20 @@ body html {
     font-size: 50px;
     font-family: 'Oswald', sans-serif;
     text-align: center;
-    padding-right: 60px;
+    
 }
 
    /*-------------------------- Menu links */
 
 .image-grid-cover {
-    margin-left: 500px;
+    justify-content: center;
+    position: relative;
+    margin-left: 250px; 
 }
 
 .image-grid-cover-about {
     background-image: url('../images/camera.jpg');
+    opacity: 80%;
     width: 90%;
     background-size: cover;
     min-height: 180px;
@@ -78,6 +67,7 @@ body html {
 
 .image-grid-cover-blog {
     background-image: url("../images/skateboard.jpg");
+    opacity: 80%;
     width: 90%;
     background-size: cover;
     min-height: 180px;
@@ -89,6 +79,7 @@ body html {
 
 .image-grid-cover-contact {
     background-image: url("../images/loves.jpg");
+    opacity: 80%;
     width: 90%;
     background-size: cover;
     min-height: 180px;
@@ -183,7 +174,7 @@ body{
    /* ------------------------- NavBar */
 .navbar {
     background-color: black;
-    padding: 20px;
+    padding: 10px;
     position: absolute;
 }
 
