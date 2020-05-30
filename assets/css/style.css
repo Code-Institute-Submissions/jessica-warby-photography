@@ -410,7 +410,7 @@ a.btn-card {
 .blog-page {
     background-color: grey;
     border-top: 1px solid white;
-    
+    margin-left: 70px;
 }
 
 .blog-page h1 {
@@ -440,13 +440,14 @@ a.btn-card {
     padding: 5px 30px;
 }
 
-.blog-page-dance {
+.blog-page-divide {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     border-bottom: 2px white solid;
+    border-top: 2px whte solid;
 }
 
-.blog-page-lego {
-    padding-top: 1rem;
-}
+.
 
 
     /* ------------------------ Contact */
