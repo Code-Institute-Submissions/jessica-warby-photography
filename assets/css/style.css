@@ -447,7 +447,18 @@ a.btn-card {
     border-top: 2px whte solid;
 }
 
-.
+.return-to a{
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    color: #fff;
+    text-shadow: 5px 3px 3px black;
+    text-decoration: none;
+}
+
+.return-to a:hover {
+    color: red;
+    transition: all 0.3s ease 0s;
+}
 
 
     /* ------------------------ Contact */
