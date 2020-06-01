@@ -5,13 +5,13 @@
    /*-------------------------- Background */
 
 .bg-index {
-  min-height: 100%;
-  min-width: 1024px;
-  width: 100%;
-  height: auto;
-  position: fixed;
-  top: 0;
-  left: 0;
+    background-image: url("../images/bg/tiger-color-crop.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    position: absolute;
 }
 
 
@@ -79,7 +79,7 @@
     background-size: cover;
     min-height: 180px;
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
     text-shadow: rgba(0,0,0,.8) 0 1px 0;
     border-radius: 4px; 
     
@@ -143,23 +143,22 @@ a, a:focus, a:hover {
 
 .profile {
     background: url("../images/bg/camera.jpg");
+     background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
-	position: relative;
-	z-index: 2;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    background-color: #464646;
+    position: absolute;
 }
 
-.about-me-title h1 {
+.about-me-title h2 {
     text-align: left;
     color: #fafafa;
     font-family: 'Oswald', sans-serif;
     text-shadow:5px 5px 10px black;
     font-size: 75px;
     text-indent: 10%;
-    padding: 10px 0 40px;
+    margin: 90px 0 40px;
 }
 
 .about-me-work-bg {
@@ -172,7 +171,6 @@ a, a:focus, a:hover {
     border-bottom: 1px white solid;
     border-top: 1px white solid;
 }
-
 
 #center-about{
     width: 40%;
@@ -188,11 +186,11 @@ a, a:focus, a:hover {
 }
 
 .about-me-info {
-    text-align: center;
-    padding: 20px 0px 0 50px;
+    text-align: right;
+    padding: 20px 0px 0 0px;
 }
 
-.about-me-info h1 {
+.about-me-info h2 {
     font-family: 'Oswald', sans-serif;
     color: #fafafa;
     text-align: center;
@@ -216,7 +214,7 @@ a, a:focus, a:hover {
 }
 
 
-.about-my-work h1 {
+.about-my-work h2 {
     color: #fafafa;
     font-family: 'Oswald', sans-serif;
     text-align: center;
@@ -269,7 +267,7 @@ a, a:focus, a:hover {
 
    /*--------------------- Blog */
 
-body {
+.blog-bg {
   background-image: url("../images/bg/sticker.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -283,7 +281,7 @@ body {
     border-bottom: 3px solid grey;
 }
 
-.blog-header h1 {
+.blog-header h2 {
     color: #fff;
     font-family: 'Krona One', sans-serif;
     text-align: center;
@@ -326,7 +324,7 @@ body {
 	display: block;
 }
 
-.card-img span {
+.card-img h4 {
 	position: absolute;
     top: 15%;
     left: 12%;
@@ -341,7 +339,7 @@ body {
     -o-border-radius: 4px;
     transform: translate(-50%,-50%);
 }
-.card-img span h4{
+.card-img h4 span{
         font-size: 12px;
         margin:0;
         padding:10px 5px;
@@ -413,7 +411,7 @@ a.btn-card {
     margin-left: 70px;
 }
 
-.blog-page h1 {
+.blog-page h2 {
     font-family: 'Oswald', sans-serif;
     font-size: 42px;
     color: #fff;
@@ -444,7 +442,7 @@ a.btn-card {
     padding-top: 1rem;
     padding-bottom: 1rem;
     border-bottom: 2px white solid;
-    border-top: 2px whte solid;
+    border-top: 2px white solid;
 }
 
 .return-to a{
@@ -508,6 +506,10 @@ textarea {
 .contact-form .submit {
     background-color: black;
 color: #fafafa;
+}
+
+.contact-form .submit:hover {
+    background-color: red;
 }
 
 .contact-me-message {
@@ -648,6 +650,10 @@ background-image: linear-gradient(to top, #000000 0%, grey 100%);
     padding-left: 5px;
 }
 
+.subscribe-form button:hover {
+    background-color: red;
+}
+
  /*---------------------------- Footer */
 
 body{
@@ -656,7 +662,7 @@ body{
 
 .footer {
     background: #595959;
-    padding: 30px 0px;
+    padding: 20px 0px;
     color: #FFF;
 }
 
@@ -667,7 +673,7 @@ body{
 }
 
 .footer ul li{
-    margin:10px 0px;
+    margin:5px 0px;
 }
 
 .footer ul li a {
@@ -685,20 +691,13 @@ body{
 }
 
 .menu {
-    padding-top: 20px;
+    padding-top: 5px;
 }
 
 .details {
-    padding-top: 20px;
+    padding-top: 5px;
 }
 
 .social-links li a span {
     font-size: 25px;
-}
-
-
-    /*--------------------- Copyright */
-
-.copyright {
-    padding-top: 0px;
 }
