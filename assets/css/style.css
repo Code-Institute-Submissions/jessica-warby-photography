@@ -1,8 +1,30 @@
 @import url('https://fonts.googleapis.com/css?family=Krona+One|Oswald:200,300,400,500,600,700|Playfair+Display&display=swap');
 
+
+   /* ------------------------- NavBar */
+
+.bg-color {
+   background-color: #000;
+   padding: 10px 10px 10px;
+   font-size: 20px;
+   color: #fff;
+}
+
+
+.web-title {
+    font-size: 22px;
+}
+
+#nav li {
+    padding: 0 10px 0 10px;
+}
+
+#nav li a:hover {
+  background-color: red;
+}
+
+
    /* ------------------------- INDEX*/
-
-
 
    /*-------------------------- Background */
 
@@ -20,16 +42,16 @@
    /* ------------------------- Title*/
 
 .web-name {
-    color: #fff;
+    color: white;
     position: center;
     text-align: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 90px;
+    padding-bottom: 50px;
     text-shadow: 5px 3px 3px black;
 }
 
 .web-name span {
-    font-size: 40px;
+    font-size: 46px;
     font-family: 'Oswaald', sans-serif;
     text-align: center;
     padding-bottom: 20px;
@@ -120,60 +142,51 @@ a, a:focus, a:hover {
 
    /*-------------------------- ABOUT/BLOG/CONTACT */
 
-   /* ------------------------- NavBar */
-.navbar {
-    background-color: black;
-    padding: 10px;
-    position: relative;
-}
+   
 
-.web-title {
-    font-family: 'Oswald', sans-serif;
-    font-size: 15px;
-    color: #fff;
-    width: 100%;
-    position: relative;
-}
 
-.nav-item {
-    padding: 0 30px 0 30px;
-    font-family: 'Oswald', sans-serif;
-    position: relative;
-    width: 100%;
-}
 
     /* ------------------------- About Me */
 
 
 .profile {
     background: url("../images/bg/camera.jpg");
-     background-position: center center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-color: #464646;
-    position: absolute;
+    position: relative;
+    font-family: 'Oswald', sans-serif;
 }
 
+
+
 .about-me-title h2 {
-    text-align: left;
+    text-align: center;
     color: #fafafa;
     font-family: 'Oswald', sans-serif;
     text-shadow:5px 5px 10px black;
     font-size: 75px;
-    text-indent: 10%;
-    margin: 90px 0 40px;
+    margin: 130px 0 40px;
 }
 
-.about-me-work-bg {
-    background-color: #a8a6a0;
-}
 .about-me-intro {
     background-color: #1e2120;
-    padding: 8px 200px 10px 0;
     position: relative;
     border-bottom: 1px white solid;
-    border-top: 1px white solid;
+    border-top: 5px white solid;
+    border-left: 5px white solid;
+    border-right: 5px white solid;
+    padding: 30px 0 10px 0;
+}
+
+.about-me-head h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #fafafa;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 5px 3px 3px #000;
 }
 
 #center-about{
@@ -189,30 +202,25 @@ a, a:focus, a:hover {
     border: 5px white solid;
 }
 
-.about-me-info {
-    text-align: right;
-    padding: 20px 0px 0 0px;
+.portrait-image {
+    padding: 80px 0px 0px 0px;
 }
 
-.about-me-info h2 {
-    font-family: 'Oswald', sans-serif;
-    color: #fafafa;
+.about-me-info {
     text-align: center;
-    font-size: 30px;
-    padding: 10px 0 10px 0;
-    text-shadow: 5px 3px 3px #000;
+    padding: 30px 0 30px;
 }
+
 
 .about-me-info p {
     color: white;
-    font-size: 15px;
+    font-size: 25px;
     text-align: center;
-    margin: 0 auto;
     text-shadow: 5px 3px 3px #000;
 }
 
 .about-me-info p span {
-    font-size: 18px ;
+    font-size: 28px ;
     color: yellow;
     text-shadow: 5px 3px 3px #000;
 }
@@ -230,6 +238,7 @@ a, a:focus, a:hover {
 
 .amw-title {
     border: 1px black solid;
+    padding: 40px 0 30px 0;
 }
 
 .about-my-work-info {
@@ -370,8 +379,8 @@ a, a:focus, a:hover {
 }
 
 .card-desc p {
-	color: #747373;
-    font-size: 14px;
+	color: darkgoldenrod;
+    font-size: 20px;
 	font-weight: 400;
 	line-height: 1.5;
 	margin: 0px;
@@ -380,7 +389,7 @@ a, a:focus, a:hover {
 	font-family: 'Oswald', sans-serif;
 }
 .btn-card{
-	background-color: #1ABC9C;
+	background-color: black;
 	color: #fff;
 	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
     padding: .84rem 2.14rem;
@@ -478,6 +487,7 @@ a.btn-card {
 
 .contact-intro {
     margin-top: 7rem;
+    text-align: center;
 }
 
 .section-title h2 {
@@ -488,8 +498,7 @@ a.btn-card {
 
 .section-title i {
     font-size: 70px;
-    text-align: right;
-    color: #fff;
+    color: goldenrod;
 }
 
 .section-title p {
@@ -510,6 +519,7 @@ a.btn-card {
 
 .lock {
     margin-bottom: 3rem;
+    text-align: center;
 }
 
 .contact-info .fa {
@@ -526,10 +536,12 @@ a.btn-card {
   margin-bottom: 10px;
   -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
+  color: #fff;
 }
 
 #contact .form-control:focus {
-  border-bottom-color: #999999;
+  border-bottom-color: darkgoldenrod;
+  background-color: black;
 }
 
 #contact input {
@@ -537,7 +549,7 @@ a.btn-card {
 }
 
 #contact button#submit {
-  background: #2b2b2b;
+  background: black;
   border: none;
   border-radius: 50px;
   color: #ffffff;
@@ -546,7 +558,7 @@ a.btn-card {
 }
 
 #contact button#submit:hover {
-  background: red;
+  background: #fa0707;
   color: #ffffff;
 }
 
@@ -587,8 +599,7 @@ background-image: linear-gradient(to top, #000000 0%, grey 100%);
 .mb-15 {
     margin-bottom: 15px;
 }
-.subscribe-form {
-}
+
 .subscribe2-wrapper .subscribe-form input {
     background: none;
     border: 1px solid #fff;
@@ -672,3 +683,16 @@ body{
 .social-links li a span {
     font-size: 25px;
 }
+
+
+
+    /*----------------------- images hover */
+
+img {
+    opacity: 1;
+}
+
+img:hover {
+    opacity: .90;
+}
+
