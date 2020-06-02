@@ -2,6 +2,8 @@
 
    /* ------------------------- INDEX*/
 
+
+
    /*-------------------------- Background */
 
 .bg-index {
@@ -11,7 +13,7 @@
     background-attachment: fixed;
     background-size: cover;
     background-color: #464646;
-    position: absolute;
+    position: relative;
 }
 
 
@@ -19,39 +21,40 @@
 
 .web-name {
     color: #fff;
-    margin: 50px;
-    padding-top: 50px;
     position: center;
     text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-shadow: 5px 3px 3px black;
+}
+
+.web-name span {
+    font-size: 40px;
+    font-family: 'Oswaald', sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: bolder;
 }
 
 .web-name h1 {
-    font-size: 60px;
+    font-size: 30px;
     font-family: 'Oswald', sans-serif;
     text-align: center;
-    padding-bottom: 20px;
-    letter-spacing: 35px;
-}
-
-.web-name h2 {
-    font-size: 50px;
-    font-family: 'Oswald', sans-serif;
-    text-align: center;
-    
+    position: relative;
 }
 
    /*-------------------------- Menu links */
 
 .image-grid-cover {
-    justify-content: center;
+    float: center;
     position: relative;
-    margin-left: 250px; 
+    
 }
 
 .image-grid-cover-about {
     background-image: url('../images/bg/camera.jpg');
     opacity: 80%;
-    width: 90%;
+    width: 100%;
     background-size: cover;
     min-height: 180px;
     position: relative;
@@ -63,7 +66,7 @@
 .image-grid-cover-blog {
     background-image: url("../images/skateboard.jpg");
     opacity: 80%;
-    width: 90%;
+    width: 100%;
     background-size: cover;
     min-height: 180px;
     position: relative;
@@ -75,7 +78,7 @@
 .image-grid-cover-contact {
     background-image: url("../images/loves.jpg");
     opacity: 80%;
-    width: 90%;
+    width: 100%;
     background-size: cover;
     min-height: 180px;
     position: relative;
@@ -121,7 +124,7 @@ a, a:focus, a:hover {
 .navbar {
     background-color: black;
     padding: 10px;
-    position: absolute;
+    position: relative;
 }
 
 .web-title {
@@ -136,6 +139,7 @@ a, a:focus, a:hover {
     padding: 0 30px 0 30px;
     font-family: 'Oswald', sans-serif;
     position: relative;
+    width: 100%;
 }
 
     /* ------------------------- About Me */
