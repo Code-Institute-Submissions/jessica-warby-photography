@@ -3,7 +3,7 @@
 
    /* ------------------------- NavBar */
 
-.bg-color {
+.bg-color { /*background*/
    background-color: #000;
    padding: 10px 10px 10px;
    font-size: 20px;
@@ -11,12 +11,20 @@
 }
 
 
-.web-title {
+.web-title { /*navbar title*/
     font-size: 22px;
 }
 
+.navbar { /*navbar menu*/
+  width: 100%;
+  background-color: #000;
+  overflow: auto;
+}
+
+
 #nav li {
     padding: 0 10px 0 10px;
+    border-left: 1px white solid;
 }
 
 #nav li a:hover {
@@ -28,7 +36,7 @@
 
    /*-------------------------- Background */
 
-.bg-index {
+.bg-index { 
     background-image: url("../images/bg/tiger-color-crop.jpg");
     background-position: center center;
     background-repeat: no-repeat;
@@ -58,7 +66,7 @@
     font-weight: bolder;
 }
 
-.web-name h1 {
+.web-name h2 {
     font-size: 30px;
     font-family: 'Oswald', sans-serif;
     text-align: center;
@@ -73,7 +81,7 @@
     
 }
 
-.image-grid-cover-about {
+.image-grid-cover-about { /*ABOUT*/
     background-image: url('../images/bg/camera.jpg');
     opacity: 80%;
     width: 100%;
@@ -85,7 +93,7 @@
     border-radius: 4px; 
 }
 
-.image-grid-cover-blog {
+.image-grid-cover-blog { /*BLOG*/
     background-image: url("../images/skateboard.jpg");
     opacity: 80%;
     width: 100%;
@@ -97,7 +105,7 @@
     border-radius: 4px; 
 }
 
-.image-grid-cover-contact {
+.image-grid-cover-contact { /*CONTACT*/
     background-image: url("../images/loves.jpg");
     opacity: 80%;
     width: 100%;
@@ -142,14 +150,10 @@ a, a:focus, a:hover {
 
    /*-------------------------- ABOUT/BLOG/CONTACT */
 
-   
-
-
-
     /* ------------------------- About Me */
 
 
-.profile {
+.profile {  /* BACKGROUND */
     background: url("../images/bg/camera.jpg");
     background-position: center center;
     background-repeat: no-repeat;
@@ -161,8 +165,7 @@ a, a:focus, a:hover {
 }
 
 
-
-.about-me-title h2 {
+.about-me-title h2 { /* PAGE TITLE*/
     text-align: center;
     color: #fafafa;
     font-family: 'Oswald', sans-serif;
@@ -171,14 +174,14 @@ a, a:focus, a:hover {
     margin: 130px 0 40px;
 }
 
-.about-me-intro {
+.about-me-intro { /*FIRST SECTION*/
     background-color: #1e2120;
     position: relative;
     border-bottom: 1px white solid;
     border-top: 5px white solid;
     border-left: 5px white solid;
     border-right: 5px white solid;
-    padding: 30px 0 10px 0;
+    padding: 10px 0 10px 0;
 }
 
 .about-me-head h2 {
@@ -189,28 +192,10 @@ a, a:focus, a:hover {
     text-shadow: 5px 3px 3px #000;
 }
 
-#center-about{
-    width: 40%;
-    margin:0 auto;
-    padding: 10px 0px 10px 0px;
-}
-
-.circle-cover-bg{ 
-    height: 400px;
-    width: 360px;
-    border-radius: 50%;
-    border: 5px white solid;
-}
-
-.portrait-image {
-    padding: 80px 0px 0px 0px;
-}
-
 .about-me-info {
     text-align: center;
     padding: 30px 0 30px;
 }
-
 
 .about-me-info p {
     color: white;
@@ -223,10 +208,10 @@ a, a:focus, a:hover {
     font-size: 28px ;
     color: yellow;
     text-shadow: 5px 3px 3px #000;
-}
+}        /* FIRST SECTION ENDS */
 
 
-.about-my-work h2 {
+.about-my-work h2 { /*SECOND SECTION*/
     color: #fafafa;
     font-family: 'Oswald', sans-serif;
     text-align: center;
@@ -280,7 +265,7 @@ a, a:focus, a:hover {
 
    /*--------------------- Blog */
 
-.blog-bg {
+.blog-bg { /*BACKGROUND*/
   background-image: url("../images/bg/sticker.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -290,7 +275,7 @@ a, a:focus, a:hover {
 }
 
 
-.blog-header {
+.blog-header { /*HEADER*/
     border-bottom: 3px solid grey;
 }
 
@@ -312,7 +297,7 @@ a, a:focus, a:hover {
     text-shadow: 5px 3px 3px black;
 }
 
-.details-card {
+.details-card { /*BLOG LINKS START*/
 	background: grey;
 }
 
@@ -337,7 +322,7 @@ a, a:focus, a:hover {
 	display: block;
 }
 
-.card-img h4 {
+.card-img h4 { /* BLOG POST HEADERS */
 	position: absolute;
     top: 15%;
     left: 12%;
@@ -364,7 +349,7 @@ a, a:focus, a:hover {
   padding: 8px;
   font-family: 'Oswald', sans-serif;
 }
-.card-desc {
+.card-desc { /* BLOG DESCRIPTION */
 	padding: 1.25rem;
 }
 
@@ -388,7 +373,8 @@ a, a:focus, a:hover {
 	padding: 0;
 	font-family: 'Oswald', sans-serif;
 }
-.btn-card{
+
+.btn-card{ /* READ MORE BUTTON */
 	background-color: black;
 	color: #fff;
 	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
@@ -418,13 +404,13 @@ a.btn-card {
 
    /* -------------------- Blog Page */
 
-.blog-page {
+.blog-page { /* BLOG POST starts */
     background-color: grey;
     border-top: 1px solid white;
     margin-left: 70px;
 }
 
-.blog-page h2 {
+.blog-page h2 { /* BP Header */
     font-family: 'Oswald', sans-serif;
     font-size: 42px;
     color: #fff;
@@ -433,7 +419,7 @@ a.btn-card {
     margin: 20px 0 20px 0;
 }
 
-.blog-page p {
+.blog-page p { /* BP Content */
     font-family: 'Oswald', sans-serif;
     font-size: 22px;
     color: #fff;
@@ -447,7 +433,7 @@ a.btn-card {
     font-size: 18px;
 }
 
-.blog-page-img {
+.blog-page-img { /* BP Img */
     padding: 5px 30px;
 }
 
@@ -458,7 +444,7 @@ a.btn-card {
     border-top: 2px white solid;
 }
 
-.return-to a{
+.return-to a{ /* RETURN */
     font-family: 'Oswald', sans-serif;
     font-size: 12px;
     color: #fff;
@@ -474,7 +460,7 @@ a.btn-card {
 
     /* ------------------------ Contact */
 
-.contact {
+.contact { /* BACKGROUND */
     background-image: url("../images/bg/table-lrg.jpg");
 	background-position: center center;
     background-repeat: no-repeat;
@@ -490,18 +476,18 @@ a.btn-card {
     text-align: center;
 }
 
-.section-title h2 {
+.section-title h2 { /* HEADER */
     color: darkgoldenrod;
     font-size: 50px;
     text-shadow: 5px 3px 3px black;
 }
 
-.section-title i {
+.section-title i { /* ICON */
     font-size: 70px;
     color: goldenrod;
 }
 
-.section-title p {
+.section-title p { /* CONTENT */
     font-size: 30px;
     color: #fff;
     text-shadow: 3px 2px 2px black;
@@ -512,7 +498,7 @@ a.btn-card {
     font-weight: bolder;
 }
 
-.lock i {
+.lock i { /* ICON */
     color:darkred;
     margin-top: 4rem;
 }
@@ -526,7 +512,7 @@ a.btn-card {
   padding-right: 5px;
 }
 
-#contact .form-control {
+#contact .form-control { /* CONTACGT FORM */
   border: none;
   border-bottom: 2px solid #f0f0f0;
   border-radius: 0px;
@@ -548,7 +534,7 @@ a.btn-card {
   height: 55px;
 }
 
-#contact button#submit {
+#contact button#submit { /* SUBMIT BUTTON */
   background: black;
   border: none;
   border-radius: 50px;
@@ -565,7 +551,7 @@ a.btn-card {
 
     /*-------------------- Newsletter */
 
-.subscribe-area {
+.subscribe-area { /*BACKGROUND */
 background-image: linear-gradient(to top, #000000 0%, grey 100%);
 }
 
@@ -580,7 +566,7 @@ background-image: linear-gradient(to top, #000000 0%, grey 100%);
     margin-bottom: 15px;
 }
 
-.subscribe-text span {
+.subscribe-text span { /* SUB HEADER */
     font-size: 12px;
     font-weight: 700;
     color: #fff;
@@ -600,7 +586,7 @@ background-image: linear-gradient(to top, #000000 0%, grey 100%);
     margin-bottom: 15px;
 }
 
-.subscribe2-wrapper .subscribe-form input {
+.subscribe2-wrapper .subscribe-form input { /* SUB FORM */
     background: none;
     border: 1px solid #fff;
     border-radius: 30px;
@@ -615,7 +601,7 @@ background-image: linear-gradient(to top, #000000 0%, grey 100%);
     cursor: pointer;
 }
  
-.subscribe2-wrapper .subscribe-form button {
+.subscribe2-wrapper .subscribe-form button { /* SUB BUTTON */
     background: #ffff;
     border: none;
     border-radius: 30px;
@@ -642,7 +628,7 @@ body{
     font-family: 'Oswald', sans-serif;
 }
 
-.footer {
+.footer { /* BACKGROUND */
     background: #595959;
     padding: 20px 0px;
     color: #FFF;
