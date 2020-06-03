@@ -5,7 +5,7 @@
 
 .bg-color { /*background*/
    background-color: #000;
-   padding: 10px 10px 10px;
+   padding: 10px 5px 10px;
    font-size: 20px;
    color: #fff;
 }
@@ -13,39 +13,37 @@
 
 .web-title { /*navbar title*/
     font-size: 22px;
+    text-align-last: center;
+    font-family: 'Oswald, sans-serif'
 }
 
 .navbar { /*navbar menu*/
-  width: 100%;
   background-color: #000;
-  overflow: auto;
+  overflow: hidden;
 }
 
 
 #nav li {
     padding: 0 10px 0 10px;
     border-left: 1px white solid;
+    font-family: 'Oswald', sans-serif;
 }
 
 #nav li a:hover {
   background-color: red;
 }
 
-
    /* ------------------------- INDEX*/
 
    /*-------------------------- Background */
 
 .bg-index { 
-    background-image: url("../images/bg/tiger-color-crop.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: #464646;
-    position: relative;
+    background-color: #000;
 }
 
+.pt-100 {
+    padding-top: 100px;
+}
 
    /* ------------------------- Title*/
 
@@ -53,144 +51,47 @@
     color: white;
     position: center;
     text-align: center;
-    padding-top: 90px;
+    padding-top: 40px;
     padding-bottom: 50px;
-    text-shadow: 5px 3px 3px black;
-}
-
-.web-name span {
-    font-size: 46px;
-    font-family: 'Oswaald', sans-serif;
-    text-align: center;
-    padding-bottom: 20px;
-    font-weight: bolder;
-}
-
-.web-name h2 {
-    font-size: 30px;
     font-family: 'Oswald', sans-serif;
-    text-align: center;
-    position: relative;
 }
 
-   /*-------------------------- Menu links */
 
-.image-grid-cover {
-    float: center;
-    position: relative;
-    
+.index-thumbnail{ 
+    padding-top: 2px;
+    margin-bottom: 2rem;
+    border-bottom: 2px white solid;
+    border-top: 2px white solid;
 }
-
-.image-grid-cover-about { /*ABOUT*/
-    background-image: url('../images/bg/camera.jpg');
-    opacity: 80%;
-    width: 100%;
-    background-size: cover;
-    min-height: 180px;
-    position: relative;
-    margin-bottom: 30px;
-    text-shadow: rgba(0,0,0,.8) 0 1px 0;
-    border-radius: 4px; 
-}
-
-.image-grid-cover-blog { /*BLOG*/
-    background-image: url("../images/portrait/skateboard.jpg");
-    opacity: 80%;
-    width: 100%;
-    background-size: cover;
-    min-height: 180px;
-    position: relative;
-    margin-bottom: 30px;
-    text-shadow: rgba(0,0,0,.8) 0 1px 0;
-    border-radius: 4px; 
-}
-
-.image-grid-cover-contact { /*CONTACT*/
-    background-image: url("../images/bg/loves.jpg");
-    opacity: 80%;
-    width: 100%;
-    background-size: cover;
-    min-height: 180px;
-    position: relative;
-    margin-bottom: 80px;
-    text-shadow: rgba(0,0,0,.8) 0 1px 0;
-    border-radius: 4px; 
-    
-}
-
-.image-grid-clickbox {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    display: block;
-    width: 100%;
-    height: 100%;
-    z-index: 20;
-    background: rgba(0,0,0,.45);
-}
-
-.cover-wrapper {
-    font-size: 40px;
-    text-align: center;
-    display: block;
-    color: #fff;
-    text-shadow: rgba(0,0,0,.8) 0 1px 0;
-    z-index: 21;
-    position: relative;
-    top: 60px;
-}
-
-a, a:focus, a:hover {
-    text-decoration: none;
-    outline: 0;
-    color: red;
-}
-
    /*-------------------------- ABOUT/BLOG/CONTACT */
 
     /* ------------------------- About Me */
 
 
 .profile {  /* BACKGROUND */
-    background: url("../images/bg/camera.jpg");
+
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-color: #464646;
+    background-color: #000;
     position: relative;
     font-family: 'Oswald', sans-serif;
+    padding-top: 100px;
 }
 
-
-.about-me-title h2 { /* PAGE TITLE*/
-    text-align: center;
-    color: #fafafa;
-    font-family: 'Oswald', sans-serif;
-    text-shadow:5px 5px 10px black;
-    font-size: 75px;
-    margin: 130px 0 40px;
-}
 
 .about-me-intro { /*FIRST SECTION*/
-    background-color: #1e2120;
-    position: relative;
-    border-bottom: 1px white solid;
-    border-top: 5px white solid;
-    border-left: 5px white solid;
-    border-right: 5px white solid;
-    padding: 10px 0 10px 0;
-}
 
-.about-me-head h2 {
+    position: relative;
+    padding: 10px 0 30px 0;
     font-family: 'Oswald', sans-serif;
     color: #fafafa;
     text-align: center;
     font-size: 60px;
-    text-shadow: 5px 3px 3px #000;
+    border-bottom: 2px solid white;
 }
+
 
 .about-me-info {
     text-align: center;
@@ -266,12 +167,12 @@ a, a:focus, a:hover {
    /*--------------------- Blog */
 
 .blog-bg { /*BACKGROUND*/
-  background-image: url("../images/bg/sticker.jpg");
+
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: #464646;
+  background-color: #000;
 }
 
 
@@ -281,10 +182,9 @@ a, a:focus, a:hover {
 
 .blog-header h2 {
     color: #fff;
-    font-family: 'Krona One', sans-serif;
+    font-family: 'Oswald', sans-serif;
     text-align: center;
     padding: 90px 0 20px 0;
-    text-shadow: 5px 3px 3px black;
     font-size: 50px;
 }
 
@@ -298,7 +198,7 @@ a, a:focus, a:hover {
 }
 
 .details-card { /*BLOG LINKS START*/
-	background: grey;
+	background: #0f0f0f;
 }
 
 .card-content {
@@ -404,19 +304,29 @@ a.btn-card {
 
    /* -------------------- Blog Page */
 
+.blog-page-bg { /*BACKGROUND*/
+
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #000;
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 50px;
+}
+
 .blog-page { /* BLOG POST starts */
     background-color: grey;
     border-top: 1px solid white;
-    margin-left: 70px;
 }
 
 .blog-page h2 { /* BP Header */
     font-family: 'Oswald', sans-serif;
     font-size: 42px;
     color: #fff;
-    text-shadow: 5px 3px 3px black;
     text-align: center;
-    margin: 20px 0 20px 0;
+    margin-bottom: 20px;
 }
 
 .blog-page p { /* BP Content */
@@ -434,7 +344,7 @@ a.btn-card {
 }
 
 .blog-page-img { /* BP Img */
-    padding: 5px 30px;
+    padding: 5px ;
 }
 
 .blog-page-divide {
