@@ -94,7 +94,7 @@
 }
 
 .image-grid-cover-blog { /*BLOG*/
-    background-image: url("../images/skateboard.jpg");
+    background-image: url("../images/portrait/skateboard.jpg");
     opacity: 80%;
     width: 100%;
     background-size: cover;
@@ -106,7 +106,7 @@
 }
 
 .image-grid-cover-contact { /*CONTACT*/
-    background-image: url("../images/loves.jpg");
+    background-image: url("../images/bg/loves.jpg");
     opacity: 80%;
     width: 100%;
     background-size: cover;
