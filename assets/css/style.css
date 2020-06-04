@@ -55,7 +55,6 @@ body {
 
 
 .profile {  /* BACKGROUND */
-
     background-size: cover;
     background-color: #000;
     font-family: 'Oswald', sans-serif;
@@ -64,13 +63,20 @@ body {
 
 
 .about-me-intro { /*FIRST SECTION*/
-
     position: relative;
     padding: 30px 0 30px 0;
     font-family: 'Oswald', sans-serif;
     color: #fafafa;
     text-align: center;
     font-size: 60px;
+    background-color: #0f0f0f;
+}
+
+.about-img-divide {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px white solid;
+    border-top: 2px white solid;
 }
 
 
@@ -93,7 +99,7 @@ body {
 }        
 
 .about-me-info p a {
-    color:goldenrod;
+    color: yellow;
     text-decoration: underline;
 }
 
@@ -104,7 +110,9 @@ body {
 
 /* FIRST SECTION ENDS */
 
-
+.amw {
+    margin-bottom: 2rem;
+}
 .amw-title h2 {
     color: #fafafa;
     font-family: 'Oswald', sans-serif;
@@ -142,8 +150,7 @@ body {
 }
 
 .thumbnail {
-    border: 1px solid black;
-    margin-bottom: 1rem;
+    border: 1px solid white;
 }
 
 .thumbnail p {
@@ -292,14 +299,6 @@ a.btn-card {
 }
 
    /* -------------------- Blog Page */
-
-.blog-page-bg { /*BACKGROUND*/
-
-
-    background-size: cover;
-    background-color: #000;
-    padding-top: 50px;
-}
 
 .blog-page { /* BLOG POST starts */
     background-color: grey;
@@ -528,12 +527,9 @@ background-image: linear-gradient(to top, #000000 0%, grey 100%);
 
  /*---------------------------- Footer */
 
-body{
-    font-family: 'Oswald', sans-serif;
-}
 
 .footer { /* BACKGROUND */
-    background: #595959;
+    background: black;
     padding: 20px 0px;
     color: #FFF;
 }
