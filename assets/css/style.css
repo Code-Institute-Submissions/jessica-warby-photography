@@ -16,6 +16,7 @@ body {
    padding: 30px 10px 10px;
    color: #fff;
    font-size: 18px;
+   font-family: 'Oswald', sans-serif;
 }
 
 
@@ -353,7 +354,7 @@ a.btn-card {
     /* ------------------------ Contact */
 
 .contact { /* BACKGROUND */
-    background-image: url("../images/bg/table-lrg.jpg");
+    background-image: url("../images/bg/glass-heart.jpg");
 	background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;

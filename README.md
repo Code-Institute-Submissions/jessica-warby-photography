@@ -1,39 +1,51 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# **JESSICA WARBY PHOTOGRAPHY**
 
-Welcome jakefernihough,
+<img src="assets/images/readme/responsive-format.jpg" style="margin: 0;">
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+I pitched the idea to my friend Jessica Warby about creating her a new blog-based photography website after I
+stumbled on to her old [wix website](https://jesswarby.wixsite.com/jessicawarby), and felt that she needed an update to 
+make a more professional looking site. This way it could attract more business on her end, as well as giving me valuable
+experience and help create a good account of myself for my course and career prospects.
 
-## Gitpod Reminders
+I created this site as part of my milestone one User-Centric Frontend Development Project with [Code Institute](https://codeinstitute.net/),
+Using knowledge of my HTML, CSS and Bootstrap. My intent with this project is to show my capabilities to potential future employers/recruiters who will be able to assess
+my skills, qualities and qualifications easily and efficiently.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+**You can find a link to the live website** [Here](https://jakefernihough.github.io/jessica-warby-photography/)
 
-`python3 -m http.server`
+# UX
 
-A blue button should appear to click: *Make Public*,
+## Website Goals
+   * The purpose of creating this site was to help my friend Jessica Warby with her photography business and to create her a new
+   updated website, presenting information about her and showcasing her work to potential collaborators.
 
-Another blue button should appear to click: *Open Browser*.
+   * To reach out to other artists/photographers/dancers/talented individuals about collaborating together.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+   * To give an indepth look at Jessica's work and personality so potential collaborators can analyse her work.
 
-A blue button should appear to click: *Make Public*,
+   * To give a quick and easy way of contacting Jessica to work with projects.
 
-Another blue button should appear to click: *Open Browser*.
+## User Stories
+   * I want to go onto a page, with minimal loading time.
+   * I want to go onto a page and understand what sort of content is available from the first view.
+   * I want an easy and accessable navigation menu to every page.
+   * I want the advantage of knowing more about the artist before I commit to working with them.
+   * I want to see if we have similar interests that could spur new and consistant projects.
+   * I want to know more about what the artist has been doing recently and what product they have produced.
+   * I want to make sure their product is of quality content and show they have skill in this field.
+   * I want to feel confident that I can come back for new content.
+   * I want an easy and accessable way to get in contact with the artist.
+   * I want the footer to give me other useful information including social media links about the artist.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+## Wireframes
+   I first went into this project blind and without direction. So I had a few variations of my index.html page, before
+   finally landing on the money. After speaking to my mentor, I started using [Balsamiq](https://balsamiq.com/wireframes/desktop/#)
+   to give myself a goal to achieve. I ended up creating 22 wireframes (8 desktop, 7 mobile and 7 ipad). 
 
-## Updates Since The Instructional Video
+* These were some earlier incarnations of the website.
+    
+    <img src="assets/images/readme/og.jpg" style="margin: 0;">
+    <img src="assets/images/readme/Original.jpg" style="margin: 0;">
+    <img src="assets/images/readme/about-og.jpg" style="margin: 0;">
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+*
