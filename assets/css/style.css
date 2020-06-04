@@ -1,36 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Krona+One|Oswald:200,300,400,500,600,700|Playfair+Display&display=swap');
 
+   /* ---------------------- Backgrounds */
+body {
+    background-color: #000;
+}
+
+.bg {
+    background-color: #000;
+}
 
    /* ------------------------- NavBar */
 
 .bg-color { /*background*/
    background-color: #000;
-   padding: 10px 5px 10px;
-   font-size: 20px;
+   padding: 30px 10px 10px;
    color: #fff;
+   font-size: 18px;
 }
 
 
-.web-title { /*navbar title*/
-    font-size: 22px;
-    text-align-last: center;
-    font-family: 'Oswald, sans-serif'
-}
-
-.navbar { /*navbar menu*/
-  background-color: #000;
-  overflow: hidden;
-}
-
-
-#nav li {
-    padding: 0 10px 0 10px;
-    border-left: 1px white solid;
+.nav-title { /*navbar title*/
     font-family: 'Oswald', sans-serif;
-}
-
-#nav li a:hover {
-  background-color: red;
+    color: #fff;
+    font-size: 22px;
 }
 
    /* ------------------------- INDEX*/
@@ -39,23 +31,17 @@
 
 .bg-index { 
     background-color: #000;
+    background-size: cover;
 }
 
 .pt-100 {
-    padding-top: 100px;
+    padding-top: 130px;
+    padding-bottom: 10px; 
 }
+
+
 
    /* ------------------------- Title*/
-
-.web-name {
-    color: white;
-    position: center;
-    text-align: center;
-    padding-top: 40px;
-    padding-bottom: 50px;
-    font-family: 'Oswald', sans-serif;
-}
-
 
 .index-thumbnail{ 
     padding-top: 2px;
@@ -70,12 +56,8 @@
 
 .profile {  /* BACKGROUND */
 
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
     background-color: #000;
-    position: relative;
     font-family: 'Oswald', sans-serif;
     padding-top: 100px;
 }
@@ -84,24 +66,23 @@
 .about-me-intro { /*FIRST SECTION*/
 
     position: relative;
-    padding: 10px 0 30px 0;
+    padding: 30px 0 30px 0;
     font-family: 'Oswald', sans-serif;
     color: #fafafa;
     text-align: center;
     font-size: 60px;
-    border-bottom: 2px solid white;
 }
 
 
 .about-me-info {
-    text-align: center;
-    padding: 30px 0 30px;
+    padding: 30px 0 60px;
+        border-bottom: 2px solid white;
 }
 
 .about-me-info p {
     color: white;
     font-size: 25px;
-    text-align: center;
+    text-align: left;
     text-shadow: 5px 3px 3px #000;
 }
 
@@ -109,27 +90,33 @@
     font-size: 28px ;
     color: yellow;
     text-shadow: 5px 3px 3px #000;
-}        /* FIRST SECTION ENDS */
+}        
+
+.about-me-info p a {
+    color:goldenrod;
+    text-decoration: underline;
+}
+
+.about-me-info p a:hover {
+    color: darkgoldenrod;
+}
 
 
-.about-my-work h2 { /*SECOND SECTION*/
+/* FIRST SECTION ENDS */
+
+
+.amw-title h2 {
     color: #fafafa;
     font-family: 'Oswald', sans-serif;
     text-align: center;
     letter-spacing: 3px;
-    font-size: 60px;
-    padding-bottom: 2px;
-    text-shadow: #000000 5px 3px 3px;
-}
-
-.amw-title {
-    border: 1px black solid;
+    font-size: 70px;
     padding: 40px 0 30px 0;
 }
 
 .about-my-work-info {
     font-family: sans-serif;
-    font-size: 23px ;
+    font-size: 20px ;
     text-align: center;
     padding: 1px;
 }
@@ -156,6 +143,7 @@
 
 .thumbnail {
     border: 1px solid black;
+    margin-bottom: 1rem;
 }
 
 .thumbnail p {
@@ -306,13 +294,9 @@ a.btn-card {
 
 .blog-page-bg { /*BACKGROUND*/
 
-	background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+
     background-size: cover;
     background-color: #000;
-    position: relative;
-    font-family: 'Oswald', sans-serif;
     padding-top: 50px;
 }
 
@@ -333,7 +317,7 @@ a.btn-card {
     font-family: 'Oswald', sans-serif;
     font-size: 22px;
     color: #fff;
-    text-align: center;
+    text-align: ;
     padding: 10px 0 10px;;
     background-color: grey;
 }
@@ -386,6 +370,11 @@ a.btn-card {
     text-align: center;
 }
 
+.contact-begin {
+    margin-top: 50px;
+    border-bottom: 2px solid black;
+}
+
 .section-title h2 { /* HEADER */
     color: darkgoldenrod;
     font-size: 50px;
@@ -394,11 +383,11 @@ a.btn-card {
 
 .section-title i { /* ICON */
     font-size: 70px;
-    color: goldenrod;
+    color: #000;
 }
 
 .section-title p { /* CONTENT */
-    font-size: 30px;
+    font-size: 28px;
     color: #fff;
     text-shadow: 3px 2px 2px black;
 }
@@ -410,7 +399,7 @@ a.btn-card {
 
 .lock i { /* ICON */
     color:darkred;
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
 .lock {
@@ -420,6 +409,10 @@ a.btn-card {
 
 .contact-info .fa {
   padding-right: 5px;
+}
+
+#contact-form {
+    margin-bottom: 2rem;
 }
 
 #contact .form-control { /* CONTACGT FORM */
@@ -579,7 +572,6 @@ body{
 .social-links li a span {
     font-size: 25px;
 }
-
 
 
     /*----------------------- images hover */
