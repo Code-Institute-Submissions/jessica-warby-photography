@@ -36,12 +36,18 @@ body {
 
 .pt-100 {
     padding-top: 130px;
-    padding-bottom: 10px; 
+    padding-bottom: 30px; 
 }
 
 
-
    /* ------------------------- Title*/
+
+.index-heading {
+    text-align: center;
+    color: #fff;
+    padding-bottom: 60px;
+    font-family: 'Oswald', sans-serif;
+}
 
 .index-thumbnail{ 
     margin-bottom: 2rem;
@@ -86,7 +92,7 @@ body {
 
 .about-me-info p {
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     text-align: left;
     text-shadow: 5px 3px 3px #000;
 }
@@ -436,18 +442,50 @@ a.btn-card {
   height: 55px;
 }
 
-#contact button#submit { /* SUBMIT BUTTON */
+#contact button#submit{ /* SUBMIT BUTTON */
   background: black;
   border: none;
   border-radius: 50px;
   color: #ffffff;
   height: 50px;
   margin-top: 24px;
+  text-decoration: none;
+}
+
+#contact button#submit a {
+    color: #fff;
+    text-decoration: none;
 }
 
 #contact button#submit:hover {
   background: #fa0707;
   color: #ffffff;
+  text-decoration: none;
+}
+
+    /*----------------------- Response */
+
+.response-heading {
+    padding: 120px 0 60px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.response-heading h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+.response-heading span {
+    color: #fff;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.response-text {
+    padding-bottom: 30px;
 }
 
 

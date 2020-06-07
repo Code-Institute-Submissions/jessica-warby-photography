@@ -123,8 +123,108 @@ Eventually I found the problem, I forgot to make a container for a section, whic
 the content onto **Mozilla Firefox**. Lastly, I used **Internet Browser** to success.
     
     *i.* The only common problem I have is when I am narrowing down my desktop browser size, the first blog post is not responsive 
-    like the rest of the blog post and has a very narrow width. It is the size between a mobile and tablet device.
+    like the rest of the blog post and has a very narrow width. It is the size between a mobile and tablet device. But its only a momentary lapse, before it corrects.
 
-
-
+3. I used https://validator.w3.org/ to check my code for any problems. The two occuring problems is the tags with the links for the Navbar is a "Stray Target, however once I remove them,
+the hamburger navigation bar is inaccessable.
    
+      *i.* The second problem was the navbar aria-conrols input as it did not target the data-target, however I managed to fix it.
+
+## Test Scenarios
+
+1. **Newsletter** - Go onto About/Blog/Blog-Pages/Contact. Just above the footer.
+     
+     *i* - Try to submit the form without a correct syntax e-mail address and you will get an error message that requests a valid email address.
+     
+     *ii* - Submitting the form with empty fields will register a message saying "Please fill in this field"
+
+     *iii* - Press the "get connected" button and if successful, it will refresh the page and you will be signed up to the newsletter.
+
+2. **Contact Form** - click onto the Contact Me page on the NavBar or footer menu.
+
+     *i* - Try to submit the form with empty fields and you will get an error message that requests to fill out form, starting with the Name input.
+
+     *ii* - Try to submit the form without a valid syntaxt email will request the user to input a valid email address.
+
+     *iii* - If the user does not fill out the Message input, the form will request to fill it out before submitting request.
+
+     *iv* - When all fields have been filled out, click the "Let's get started" button and if successful, it will open up a new page [respnse.html](response.html),
+     with a _**Thank You**_ message.
+
+3. **NavBar** - Hover over the menu titles and it will brighten up.
+ 
+     *i* - Click onto a menu (e.g Contact), when on the page, the Navbar will permanently have *Contact* highlighted whilst on that page.
+
+4. **Footer** - Links to the pages and links to social media.
+  
+     *i* - When hovering over the menu/ social media Icons, it shall hover red.
+
+     *ii* - click on a specific link and it will open up that page that you requested.
+
+# Deployment
+
+Created a **GitHub** account at [GitHub](https://github.com) locate my page [Here](https://github.com/jakefernihough)
+
+I uploaded all my files to my **GitHub repository** under the name [Jessica-Warby-Photography](https://github.com/jakefernihough/jessica-warby-photography).
+
+To publish the project, Open up the *settings*, scroll down to the section titled *GitHub Pages*. Under the *Source* setting, select **master branch**.
+
+Refresh the page. and a link the **[live](https://jakefernihough.github.io/jessica-warby-photography/)** website can be found and viewed. https://jakefernihough.github.io/jessica-warby-photography/
+
+For more information about deploying, go to **[this page](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)**
+
+  ## How to Run this page Locally
+
+  To clone this project from GitHub:
+
+On GitHub, navigate to the main page of the repository.
+
+On the right-hand side, above the files, press the green button labelled 'Clone or Download'. This button will give you options to  open in desktop or download as a zip file, or clone with HTTPS.
+
+copy the clone URL for the repository.
+
+Open the Terminal.
+
+Change the current working directory to the location where you want the cloned directory to be made.
+
+Type git clone into the terminal and then paste the URL https://github.com/jakefernihough/jessica-warby-photography.git
+
+Press Enter. Your local clone will be created.
+
+More information about git cloning can be found [here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+
+# Credits
+
+## Content Used
+
+* **NavBar** was inspired and created by by "Bootstrap 4 navbar example, navigation top menu bootstrap" Bootstrap 4.1.1 Snippet by [vosidiy](https://bootsnipp.com/snippets/nNWr8).
+* **Newsletter** was inspired and created by "Bootstrap4 newsletter" Bootstrap 4.1.1 Snippet by [dkstudio](https://bootsnipp.com/snippets/92pvX).
+* **Blog Cards** was inspired and created by "bootstrap material style blog cards " Bootstrap 4.1.1 Snippet by [ALIMUL AL RAZY](https://bootsnipp.com/snippets/WaeDX).
+* **Contact Form** was inspired and created by "Contact Info" Bootstrap 4.1.1 Snippet by [Nemra1](https://bootsnipp.com/snippets/qrj4g).
+
+### Inspirations 
+
+* I took inspiration from [Peter McKinnon's](https://www.petermckinnon.com/) homepage. especially the black background and white font.
+* I got the About Me page and newsletter idea from [Adrieana Blazin Photography](https://blazinphoto.com/), that I incorporated into my work.
+* [Liller Photo](http://www.lillerphoto.com/blog) gave me the idea of having a blog-styled page instead of just a gallery page.
+
+## Media 
+
+!! **ALL IMAGES ARE SHOT, EDITED AND OWNED BY JESSICA WARBY OF JESSICA WARBY PHOTOGRAPHY** !!
+
+* All images can be found on Jessica Warby's :- [Wix](https://jesswarby.wixsite.com/jessicawarby), [Flickr](https://www.flickr.com/photos/47256553@N04/?fbclid=IwAR2hoQ0bmxzsWdtyOF7TFMfsRdrL-0_VhhXg3QLteYU9q7Cov96cBDfAIIg),
+[Facebook](https://www.facebook.com/Jwarbyphotography) and [Instagram](https://www.instagram.com/naturalflights6/) accounts.
+
+* 'Oswald' font was used throughout the page, thanks to [Google Fonts](https://fonts.google.com/.)
+* [Font Awesome](https://fontawesome.com/) was used for the Social Icons found.
+
+## Acknowledgements
+
+* First of all, a big THANK YOU to [CodeInstitute](https://codeinstitute.net/) for teaching me everything I have learnt so far. I have come a long way because of their instructions and guidance.
+* A thank you to the [Slack Community](https://app.slack.com/client/T0L30B202/threads), who helped me in my time of needs during this project.
+* Shout out to [Lewis Church](https://www.linkedin.com/in/lewis-church-a29b077/), who was the man that got me into starting this course.
+* A very big thank you to [Jessica Warby Photography](https://www.facebook.com/Jwarbyphotography) for allowing me to build this website, using all of her content and giving her a brand new Web-Page
+that she deserves. As well as being a great friend!
+
+* Lastly, but certainly not least, The person who has guided me through this journey and this creation. Helping me whenever the chance came and being an absolute star mentor, I can not thank [Adegbenga Adeye](https://www.linkedin.com/in/adegbenga-adeye-14003635/)
+enough for what he has done to help me.

@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
         <!--Hover CSS-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+        <!--Icons CSS-->
         <script src="https://kit.fontawesome.com/560f33c40f.js" crossorigin="anonymous"></script>
         <!--Style CSS-->
         <link rel="stylesheet" href="assets/css/style.css" type="text/css" />  
@@ -19,14 +20,16 @@
     </head>
     <!--ALL IMAGE CONTENT BELONGS TO JESSICA WARBY PHOTOGRAPHY-->
   <body class="contact">
-	<header> <!-- NavBar Start -->        
-           <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-color">
-	           <a class="navbar-brand nav-title">JESSICA WARBY PHOTOGRAPHY</a>
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <header>
+            <!-- NavBar Start --><!--Inspired by "Bootstrap 4 navbar example, navigation top menu bootstrap" by vosidiy on Bootsnippet-->
+            <!--Burger Menu available for smaller screens-->
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-color">
+                <a class="navbar-brand nav-title">JESSICA WARBY PHOTOGRAPHY</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                  </button>
+                </button>
                 <div class="collapse navbar-collapse" id="navbar1">
-                    <ul class="navbar-nav ml-auto"> 
+                    <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
                             <a class="nav-link" href="index.html">HOME</a>
                         </li>
@@ -41,7 +44,8 @@
                         </li>
                     </ul>
                 </div>
-            </nav>  <!-- NavBar End--> 
+            </nav>
+            <!-- NavBar End-->
         </header>
         <section id="contact" class="parallax-section">
             <div class="container">
@@ -59,7 +63,7 @@
                         </div>
                     </div>
                     <div class="col-md-12 col-sm-12 contact-begin">
-                    <!-- CONTACT FORM HERE -->
+                    <!-- CONTACT FORM HERE. Contact form based off "Contact Info" Snippet by Nemra1 (https://bootsnipp.com/snippets/qrj4g) -->
                         <div class="" data-wow-delay="0.4s">
                             <form id="contact-form" action="#" method="get">
                                 <div class="col-md-6 col-sm-6">
@@ -72,7 +76,7 @@
                                    <textarea class="form-control" rows="5" name="message" placeholder="Message" required=""></textarea>
                                 </div>
                                 <div class="col-md-offset-4 col-md-4 col-sm-offset-4 col-sm-4">
-                                   <button id="submit" type="submit" class="form-control" name="submit">Let's get started!</button>
+                                   <button id="submit" type="submit" class="form-control" name="submit"><a href="response.html">Let's get started!</a></button>
                                 </div>
                             </form>
                         </div>
@@ -80,7 +84,7 @@
                     <div class="col-md-12 col-sm-12  lock">
                     <!-- COMING SOON -->
                         <div class=" contact-info" data-wow-delay="0.4s">
-                           <div class="section-title ">
+                            <div class="section-title ">
                               <i class="fas fa-lock"></i>
                                 <h2>COMING SOON</h2>
                                 <p>I am heading towards a new direction with my work. I will be setting up my<span> OFFICIAL</span> business,
@@ -90,27 +94,27 @@
                                 capture and celebrate your special day. </p>
                                 <p>I shall also be available for <span>INFANT</span> and <span>NEWBORN</span> sets!</p>
                                 <p><span>Remember to sign up to our NEWSLETTER to stay in the loop!</span></p>
-                         </div>
-                    </div>   
-               </div>
-          </div>
-     </div>
-</section>
-              <!--Newsletter section start-->
-      <section class="subscribe-area pb-50 pt-70">
-          <div class="container">
-	          <div class="row">
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="subscribe-area pb-50 pt-70">
+        <!--Newsletter Section start. Idea based off "Bootstrap4 newsletter" Snippet by dkstudio (https://bootsnipp.com/snippets/92pvX)-->
+            <div class="container">
+	            <div class="row">
                     <div class="col-md-4"> <!--Subscribe text start-->
-					  <div class="subscribe-text mb-15">
-						<span>Stay in the Loop</span>
+					    <div class="subscribe-text mb-15">
+						    <span>Stay in the Loop</span>
 							<h2>keep up to date with our projects.</h2>
-					   </div>
+					    </div>
 				    </div> <!--subscribe text end-->
 			        <div class="col-md-8"> <!--enter email-->
 						<div class="subscribe-wrapper subscribe2-wrapper mb-15">
 							<div class="subscribe-form">
 								<form action="#">
-									<input placeholder="enter your email address" type="email">
+									<input placeholder="enter your email address" type="email" required />
 									<button>get connected</button>
 								</form>
 							</div>
@@ -156,11 +160,10 @@
     	    </div>  
     </footer>                         
   </body>
-        <!-- JS, Popper.js, and jQuery -->   
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<!-- JS, Popper.js, and jQuery -->
+<!--Link to code to allow navbar to form into a hamburger icon and open up to links-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </html>
-
 
