@@ -466,12 +466,13 @@ a.btn-card {
   margin-bottom: 10px;
   -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
-  color: #fff;
+  color: black;
 }
 
 #contact .form-control:focus {
   border-bottom-color: darkgoldenrod;
   background-color: black;
+  color: #fff;
 }
 
 #contact input {
