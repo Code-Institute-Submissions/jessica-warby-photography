@@ -113,6 +113,8 @@ Underneath that, I used a couple more of her photo's and explained about her wor
 
 **W3C Validator** was used to validate all my code and outline any errors. https://validator.w3.org/
 
+**Favicon** - Used to create the small square logo next to web-link.
+
 # Testing
 
 1. I tested out my code using [responsivedesign](http://ami.responsivedesign.is/#) and after tinkering many times, due to the fact the blog page and the index
@@ -192,6 +194,29 @@ Type git clone into the terminal and then paste the URL https://github.com/jakef
 Press Enter. Your local clone will be created.
 
 More information about git cloning can be found [here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+
+# Your Favicon Package
+
+This package was generated with [RealFaviconGenerator](https://realfavicongenerator.net/) [v0.16](https://realfavicongenerator.net/change_log#v0.16)
+
+## Install instructions
+
+To install this package:
+
+Extract this package in the root of your web site. If your site is <code>http://www.example.com</code>, you should be able to access a file named <code>http://www.example.com/favicon.ico</code>.
+
+Insert the following code in the `head` section of your pages:
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="apple-mobile-web-app-title" content="Jessica Warby Photography">
+    <meta name="application-name" content="Jessica Warby Photography">
+    <meta name="msapplication-TileColor" content="#b91d47">
+    <meta name="theme-color" content="#000000">
+
+*Optional* - Check your favicon with the [favicon checker](https://realfavicongenerator.net/favicon_checker)
 
 # Credits
 
