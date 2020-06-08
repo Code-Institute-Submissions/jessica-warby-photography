@@ -32,28 +32,33 @@ body {
    /* ------------------------- INDEX*/
 
 * {
- box-sizing: border-box;
+    box-sizing: border-box;
 }
+
 *:before,
 *:after {
- box-sizing: border-box;
+    box-sizing: border-box;
 }
+
 html,
 body {
- height: 100%;
- position: relative;
+    height: 100%;
+    position: relative;
 }
+
 .main-container {
- min-height: 100vh; /* will cover the 100% of viewport */
- overflow: hidden;
- display: block;
- position: relative;
- padding-bottom: 100px; /* height of your footer */
+    min-height: 100vh; /* will cover the 100% of viewport */
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 100px; /* height of your footer */
 }
+
 #index-footer {
- position: absolute;
- bottom: 0;
- width: 100%;
+    margin-top: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
    /*-------------------------- Background */
 
@@ -498,14 +503,13 @@ a.btn-card {
     /*----------------------- Response */
 
 .response-heading {
-    padding: 120px 0 60px;
+    padding: 120px 0 90px;
     color: #fff;
     text-align: center;
     font-family: 'Oswald', sans-serif;
 }
 
 .response-heading h2 {
-    padding-top: 10px;
     padding-bottom: 10px;
     font-size: 25px;
 }
@@ -518,6 +522,7 @@ a.btn-card {
 
 .response-text {
     padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 
