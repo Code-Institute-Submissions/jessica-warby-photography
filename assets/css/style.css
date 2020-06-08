@@ -68,9 +68,8 @@ body {
 
 .pt-100 {
     padding-top: 130px;
-    padding-bottom: 30px; 
+    padding-bottom: 90px; 
 }
-
 
    /* ------------------------- Title*/
 
@@ -85,6 +84,10 @@ body {
     margin-bottom: 2rem;
     border-bottom: 2px white solid;
     border-top: 2px white solid;
+}
+
+.index-img {
+    margin-bottom: 150px;
 }
    /*-------------------------- ABOUT/BLOG/CONTACT */
 
@@ -523,6 +526,10 @@ a.btn-card {
 .response-text {
     padding-bottom: 30px;
     padding-top: 30px;
+}
+
+.response-img {
+    margin-bottom: 190px;
 }
 
 
