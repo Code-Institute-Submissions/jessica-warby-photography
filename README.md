@@ -195,11 +195,11 @@ Press Enter. Your local clone will be created.
 
 More information about git cloning can be found [here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 
-# Your Favicon Package
+## Your Favicon Package
 
 This package was generated with [RealFaviconGenerator](https://realfavicongenerator.net/) [v0.16](https://realfavicongenerator.net/change_log#v0.16)
 
-## Install instructions
+### Install instructions
 
 To install this package:
 
