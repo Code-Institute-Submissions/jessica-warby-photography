@@ -29,7 +29,7 @@ body {
     font-size: 22px;
 }
 
-   /* ------------------------- INDEX*/
+   /* ------------------------- Index/Response - fit to ipad*/
 
 * {
     box-sizing: border-box;
@@ -47,11 +47,11 @@ body {
 }
 
 .main-container {
-    min-height: 100vh; /* will cover the 100% of viewport */
+    min-height: 100vh; 
     overflow: hidden;
     display: block;
     position: relative;
-    padding-bottom: 100px; /* height of your footer */
+    padding-bottom: 100px; 
 }
 
 #index-footer {
@@ -60,7 +60,7 @@ body {
     bottom: 0;
     width: 100%;
 }
-   /*-------------------------- Background */
+   /*-------------------------- INDEX */
 
 .bg-index { 
     background-color: #000;
@@ -93,16 +93,18 @@ body {
 
     /* ------------------------- About Me */
 
+    /* BACKGROUND */
 
-.profile {  /* BACKGROUND */
+.profile {  
     background-size: cover;
     background-color: #000;
     font-family: 'Oswald', sans-serif;
     padding-top: 100px;
 }
 
+    /*FIRST SECTION*/
 
-.about-me-intro { /*FIRST SECTION*/
+.about-me-intro { 
     position: relative;
     padding: 30px 0 30px 0;
     font-family: 'Oswald', sans-serif;
@@ -147,8 +149,7 @@ body {
     color: darkgoldenrod;
 }
 
-
-/* FIRST SECTION ENDS */
+   /* SECOND SECTION */
 
 .amw {
     margin-bottom: 2rem;
@@ -201,7 +202,9 @@ body {
 
    /*--------------------- Blog */
 
-.blog-bg { /*BACKGROUND*/
+     /*BACKGROUND*/
+
+.blog-bg { 
 
   background-position: center center;
   background-repeat: no-repeat;
@@ -211,8 +214,9 @@ body {
   margin-top: 40px;
 }
 
+     /*HEADER*/
 
-.blog-header { /*HEADER*/
+.blog-header { 
     border-bottom: 3px solid grey;
 }
 
@@ -233,7 +237,9 @@ body {
     text-shadow: 5px 3px 3px black;
 }
 
-.details-card { /*BLOG LINKS START*/
+     /*BLOG CARDS START*/
+
+.details-card { 
 	background: #0f0f0f;
 }
 
@@ -258,7 +264,9 @@ body {
 	display: block;
 }
 
-.card-img h4 { /* BLOG POST HEADERS */
+    /* BLOG CARDS TAGS */
+
+.card-img h4 { 
 	position: absolute;
     top: 15%;
     left: 12%;
@@ -285,7 +293,10 @@ body {
   padding: 8px;
   font-family: 'Oswald', sans-serif;
 }
-.card-desc { /* BLOG DESCRIPTION */
+
+     /* BLOG DESCRIPTION */
+
+.card-desc { 
 	padding: 1.25rem;
 }
 
@@ -310,7 +321,9 @@ body {
 	font-family: 'Oswald', sans-serif;
 }
 
-.btn-card{ /* READ MORE BUTTON */
+     /* READ MORE BUTTON */
+
+.btn-card{ 
 	background-color: black;
 	color: #fff;
 	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
@@ -340,13 +353,17 @@ a.btn-card {
 
    /* -------------------- Blog Page */
 
-.blog-page { /* BLOG POST starts */
+    /* BLOG POST starts */
+
+.blog-page { 
     background-color: grey;
     border-top: 1px solid white;
     margin-top: 25px;
 }
 
-.blog-page h2 { /* BP Header */
+    /* BP HEADER */
+
+.blog-page h2 { 
     font-family: 'Oswald', sans-serif;
     font-size: 42px;
     color: #fff;
@@ -354,7 +371,9 @@ a.btn-card {
     margin-bottom: 20px;
 }
 
-.blog-page p { /* BP Content */
+    /* BP Content */
+
+.blog-page p { 
     font-family: 'Oswald', sans-serif;
     font-size: 22px;
     color: #fff;
@@ -367,8 +386,10 @@ a.btn-card {
     color: red;
     font-size: 18px;
 }
+    
+    /* BP Img */
 
-.blog-page-img { /* BP Img */
+.blog-page-img { 
     padding: 5px ;
 }
 
@@ -379,7 +400,9 @@ a.btn-card {
     border-top: 2px white solid;
 }
 
-.return-to a{ /* RETURN */
+     /* RETURN */
+
+.return-to a{ 
     font-family: 'Oswald', sans-serif;
     font-size: 12px;
     color: #fff;
@@ -395,7 +418,9 @@ a.btn-card {
 
     /* ------------------------ Contact */
 
-.contact { /* BACKGROUND */
+       /* BACKGROUND */
+
+.contact { 
     background-image: url("../images/bg/glass-heart.jpg");
 	background-position: center center;
     background-repeat: no-repeat;
@@ -406,28 +431,39 @@ a.btn-card {
     font-family: 'Oswald', sans-serif;
 }
 
+    /* HEADER */
+
 .contact-intro {
     margin-top: 7rem;
     text-align: center;
 }
 
-.contact-begin {
-    margin-top: 50px;
-    border-bottom: 2px solid black;
-}
-
-.section-title h2 { /* HEADER */
+.section-title h2 { 
     color: darkgoldenrod;
     font-size: 50px;
     text-shadow: 5px 3px 3px black;
 }
+      /* ICONS */
 
-.section-title i { /* ICON */
+.section-title i { 
     font-size: 70px;
     color: #000;
 }
 
-.section-title p { /* CONTENT */
+
+.lock i { 
+    color:darkred;
+    margin-top: 2rem;
+}
+
+.lock {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+    
+    /* CONTENT */
+
+.section-title p { 
     font-size: 28px;
     color: #fff;
     text-shadow: 3px 2px 2px black;
@@ -438,19 +474,17 @@ a.btn-card {
     font-weight: bolder;
 }
 
-.lock i { /* ICON */
-    color:darkred;
-    margin-top: 2rem;
-}
-
-.lock {
-    margin-bottom: 3rem;
-    text-align: center;
-}
-
 .contact-info .fa {
   padding-right: 5px;
 }
+
+   /* CONTACT FORM */
+
+.contact-begin {
+    margin-top: 50px;
+    border-bottom: 2px solid black;
+}
+
 
 #contact-form {
     margin-bottom: 2rem;
@@ -479,7 +513,9 @@ a.btn-card {
   height: 55px;
 }
 
-#contact button#submit{ /* SUBMIT BUTTON */
+     /* SUBMIT BUTTON */
+
+#contact button#submit{ 
   background: black;
   border: none;
   border-radius: 50px;
@@ -506,6 +542,8 @@ a.btn-card {
 
     /*----------------------- Response */
 
+    /* TEXT */
+
 .response-heading {
     padding: 120px 0 90px;
     color: #fff;
@@ -529,6 +567,8 @@ a.btn-card {
     padding-top: 30px;
 }
 
+     /* IMAGES */
+
 .response-img {
     margin-bottom: 190px;
 }
@@ -536,7 +576,9 @@ a.btn-card {
 
     /*-------------------- Newsletter */
 
-.subscribe-area { /*BACKGROUND */
+     /*BACKGROUND */
+
+.subscribe-area { 
 background-image: linear-gradient(to top, #000000 0%, grey 100%);
 }
 
@@ -551,7 +593,9 @@ background-image: linear-gradient(to top, #000000 0%, grey 100%);
     margin-bottom: 15px;
 }
 
-.subscribe-text span { /* SUB HEADER */
+     /* SUB HEADER */
+
+.subscribe-text span { 
     font-size: 12px;
     font-weight: 700;
     color: #fff;
@@ -575,7 +619,9 @@ background-image: linear-gradient(to top, #000000 0%, grey 100%);
     margin-top: 10px;
 }
 
-.subscribe2-wrapper .subscribe-form input { /* SUB FORM */
+     /* SUB FORM */
+
+.subscribe2-wrapper .subscribe-form input { 
     background: none;
     border: 1px solid #fff;
     border-radius: 30px;
@@ -589,8 +635,10 @@ background-image: linear-gradient(to top, #000000 0%, grey 100%);
     width: 70%;
     cursor: pointer;
 }
- 
-.subscribe2-wrapper .subscribe-form button { /* SUB BUTTON */
+    
+     /* SUB BUTTON */
+
+.subscribe2-wrapper .subscribe-form button { 
     background: #ffff;
     border: none;
     border-radius: 30px;
@@ -613,18 +661,23 @@ background-image: linear-gradient(to top, #000000 0%, grey 100%);
 
  /*---------------------------- Footer */
 
+     /* BACKGROUND */
 
-.footer { /* BACKGROUND */
+.footer { 
     background: black;
     padding: 20px 0px;
     color: #FFF;
 }
+
+     /* TEXT */
 
 .footer h1 {
     font-weight: 600;
     font-size: 16px;
     margin-bottom:10px;
 }
+
+     /* MENU */
 
 .footer ul li{
     margin:5px 0px;
@@ -639,25 +692,31 @@ background-image: linear-gradient(to top, #000000 0%, grey 100%);
     color: red;
 }
 
+.menu {
+    padding-top: 5px;
+}
+
+     /* WEB TITLE */
+
 .website {
     letter-spacing: 1px;
     font-size: 20px;
 }
 
-.menu {
-    padding-top: 5px;
-}
+     /* DETAILS */
 
 .details {
     padding-top: 5px;
 }
+
+     /* SOCIAL LINKS */
 
 .social-links li a span {
     font-size: 25px;
 }
 
 
-    /*----------------------- images hover */
+    /*----------------------- IMAGE HOVER */
 
 img {
     opacity: 1;
