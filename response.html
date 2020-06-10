@@ -29,7 +29,7 @@
     </head>
     <!--ALL IMAGE CONTENT BELONGS TO JESSICA WARBY PHOTOGRAPHY-->
     <body class="bg-index">
-      <div class="main-container">
+       <div class="main-container">
         <header>
             <!-- NavBar Start --><!--Inspired by "Bootstrap 4 navbar example, navigation top menu bootstrap" by vosidiy on Bootsnippet-->
             <!--Burger Menu available for smaller screens-->
@@ -41,39 +41,75 @@
                 <div class="collapse navbar-collapse" id="navbar1">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">HOME</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="about.html">ABOUT ME</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="blog.html">BLOG</a>
                         </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="contact.html">CONTACT ME<span class="sr-only">(current)</span></a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">CONTACT ME</a>
                         </li>
                     </ul>
                 </div>
             </nav>
             <!-- NavBar End-->
         </header>
-        <section class="response-heading"> <!--Content begins here-->
-                <div class="container response-img">
+        <section class="mb-5 bg pt-100 response-heading"> <!--images start here-->
+           <h2>THANK YOU FOR YOUR SUBMISSION!</h2>
+            <div class="container response-img">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12"> <!--Camera image-->
+                        <img class="img-fluid img-thumbnail response-thumbnail" src="assets/images/bg/camera.jpg" alt="" />
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12"> <!--Table image-->
+                        <img class="img-fluid img-thumbnail response-thumbnail" src="assets/images/bg/loves.jpg" alt="" />
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                    <p>WE SHALL BE IN CONTACT SOON</p>
+                    </div>
+                </div>
+            </div>
+        </section> <!--end of images-->
+        <section class="response-sub">
+            <h2>Feel free to go back and browse through the rest of our site!</h2>
+                <div class="container return-links">
                     <div class="row">
-                        <div class="col-lg-4 col-md-4 col-sm-12">
-                            <img class="img-fluid img-thumbnail index-thumbnail" src="assets/images/bg/camera.jpg" alt=""/>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-12 response-text">
-                            <h2>Thank You for submitting your request!</h2>
-                            <span> You shall hear from us soon!</span>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-12">
-                            <img class="img-fluid img-thumbnail index-thumbnail" src="assets/images/bg/loves.jpg" alt=""/>
+                        <div class="col-12">
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><a href="index.html">Home Page</a></li>
+                                <li class="list-inline-item"><a href="about.html">About Me</a></li>
+                                <li class="list-inline-item"><a href="blog.html">Blog</a></li>
+                                <li class="list-inline-item"><a href="blog-page.html">Latest Stories</a></li>
+                                <li class="list-inline-item"><a href="contact.html">Contact Me</a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-        </section> <!-- Content ends here-->
-        <footer id="index-footer"> <!--Footer beings-->
+        </section>
+        <section class="subscribe-area pb-50 pt-70">
+            <!--Newsletter Section start. Idea based off "Bootstrap4 newsletter" Snippet by dkstudio (https://bootsnipp.com/snippets/92pvX)-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="subscribe-text mb-15">
+                            <span>Stay in the Loop</span>
+                            <h2>keep up to date with our projects.</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="subscribe-wrapper subscribe2-wrapper mb-15">
+                            <div class="subscribe-form">
+                                <form action="#">
+                                    <input placeholder="enter your email address" type="email" required />
+                                    <button>get connected</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
             <div class="footer">
                 <div class="container">
                     <div class="row">
@@ -128,11 +164,11 @@
                 </div>
             </div>
         </footer>
-      </div>
-    </body>
+       </div>
 <!-- JS, Popper.js, and jQuery -->
 <!--Link to code to allow navbar to form into a hamburger icon and open up to links-->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </body>
 </html>

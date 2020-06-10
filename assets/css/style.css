@@ -50,7 +50,6 @@ body {
     min-height: 100vh; 
     overflow: hidden;
     display: block;
-    position: relative;
     padding-bottom: 100px; 
 }
 
@@ -68,7 +67,7 @@ body {
 
 .pt-100 {
     padding-top: 130px;
-    padding-bottom: 90px; 
+
 }
 
    /* ------------------------- Title*/
@@ -87,7 +86,7 @@ body {
 }
 
 .index-img {
-    margin-bottom: 150px;
+    margin-bottom: 10px;
 }
    /*-------------------------- ABOUT/BLOG/CONTACT */
 
@@ -109,7 +108,7 @@ body {
     padding: 30px 0 30px 0;
     font-family: 'Oswald', sans-serif;
     color: #fafafa;
-    text-align: center;
+    text-align: left;
     font-size: 60px;
     background-color: #0f0f0f;
 }
@@ -130,7 +129,7 @@ body {
 .about-me-info p {
     color: white;
     font-size: 20px;
-    text-align: center;
+    text-align: left;
     text-shadow: 5px 3px 3px #000;
 }
 
@@ -166,7 +165,7 @@ body {
 .about-my-work-info {
     font-family: sans-serif;
     font-size: 20px ;
-    text-align: center;
+    text-align: left;
     padding: 1px;
 }
 
@@ -196,7 +195,7 @@ body {
 
 .thumbnail p {
     font-family: 'Oswald', sans-serif;
-    text-align: center;
+    text-align: left;
     background-color: #fafafa;
 }
 
@@ -377,7 +376,7 @@ a.btn-card {
     font-family: 'Oswald', sans-serif;
     font-size: 22px;
     color: #fff;
-    text-align: center;
+    text-align: left;
     padding: 10px 0 10px;;
     background-color: grey;
 }
@@ -438,18 +437,15 @@ a.btn-card {
     text-align: center;
 }
 
-.section-title h2 { 
-    color: darkgoldenrod;
-    font-size: 50px;
-    text-shadow: 5px 3px 3px black;
+.section-title  { 
+    opacity: 80%;
+    background-color: #fafafa;
 }
       /* ICONS */
 
 .section-title i { 
     font-size: 70px;
-    color: #000;
 }
-
 
 .lock i { 
     color:darkred;
@@ -460,23 +456,40 @@ a.btn-card {
     margin-bottom: 3rem;
     text-align: center;
 }
+
     
     /* CONTENT */
 
-.section-title p { 
-    font-size: 28px;
-    color: #fff;
-    text-shadow: 3px 2px 2px black;
-}
 
-.section-title p span {
+
+.section-title h2 {
+    font-size: 36px;
     color: darkgoldenrod;
     font-weight: bolder;
 }
 
-.contact-info .fa {
-  padding-right: 5px;
+.section-title p {
+    font-size: 28px;
+    color: #000;
+    font-weight: bolder;
+    text-align: left;
+    padding-left: 6px;
 }
+
+.section-title p span {
+    color: darkorange;
+    font-weight: bolder;
+}
+
+.contact-info {
+    padding-top: 10px;
+}
+
+.contact-info .fa {
+    padding-right: 5px;
+}
+
+
 
    /* CONTACT FORM */
 
@@ -484,7 +497,6 @@ a.btn-card {
     margin-top: 50px;
     border-bottom: 2px solid black;
 }
-
 
 #contact-form {
     margin-bottom: 2rem;
@@ -542,37 +554,55 @@ a.btn-card {
 
     /*----------------------- Response */
 
-    /* TEXT */
+    /* HEADER TEXT */
 
 .response-heading {
-    padding: 120px 0 90px;
-    color: #fff;
     text-align: center;
-    font-family: 'Oswald', sans-serif;
-}
-
-.response-heading h2 {
-    padding-bottom: 10px;
-    font-size: 25px;
-}
-
-.response-heading span {
     color: #fff;
-    text-align: center;
+    padding-bottom: 60px;
     font-family: 'Oswald', sans-serif;
+    border-bottom: white 2px solid;
 }
 
-.response-text {
-    padding-bottom: 30px;
-    padding-top: 30px;
-}
+    /* IMAGES */
 
-     /* IMAGES */
+.response-thumbnail { 
+    margin-bottom: 2rem;
+    border-bottom: 2px white solid;
+    border-top: 2px white solid;
+}
 
 .response-img {
-    margin-bottom: 190px;
+    margin-bottom: 10px;
 }
 
+    /* LINKS */
+
+.response-sub {
+    text-align: center;
+    color: darkgoldenrod;
+    padding-bottom: 60px;
+    font-family: 'Oswald', sans-serif;
+    border-bottom: white 2px solid;
+}
+
+.return-links {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.return-links ul li a {
+    font-size: 30px;
+    text-decoration: none;
+    color: #fafafa;
+    margin-right: 4px;
+    margin-left: 6px;
+}
+
+.return-links ul li a:hover {
+    color: red;
+}
 
     /*-------------------- Newsletter */
 
