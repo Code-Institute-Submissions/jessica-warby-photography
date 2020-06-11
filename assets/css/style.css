@@ -162,18 +162,18 @@ body {
     padding: 40px 0 30px 0;
 }
 
+
 .about-my-work-info {
     font-family: sans-serif;
-    font-size: 20px ;
     text-align: left;
-    padding: 1px;
+    padding-top: 5px;
 }
 
 .about-my-work-info p {
-    padding: 10px;
+    padding: 15px;
     color: #fafafa;
     background-color: #1e2120;
-    text-shadow: 4px 3px 3px black;
+    font-size: 18px;
 }
 
 .about-my-work-info span {
@@ -184,7 +184,7 @@ body {
 .about-my-work-info h4 {
     color: #fafafa;
     text-align: center;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: bold;
     text-shadow: 6px 5px 3px black;
 }
@@ -193,10 +193,8 @@ body {
     border: 1px solid white;
 }
 
-.thumbnail p {
-    font-family: 'Oswald', sans-serif;
-    text-align: left;
-    background-color: #fafafa;
+.skate-img {
+    margin-bottom: 10px;
 }
 
    /*--------------------- Blog */
@@ -298,6 +296,8 @@ body {
 .card-desc { 
 	padding: 1.25rem;
 }
+
+
 
 .card-desc h3 {
 	color: #000000;
@@ -440,6 +440,8 @@ a.btn-card {
 .section-title  { 
     opacity: 80%;
     background-color: #fafafa;
+    padding-bottom: 10px;
+    padding-top: 5px;
 }
       /* ICONS */
 
@@ -459,8 +461,6 @@ a.btn-card {
 
     
     /* CONTENT */
-
-
 
 .section-title h2 {
     font-size: 36px;
